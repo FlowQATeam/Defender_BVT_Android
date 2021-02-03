@@ -199,7 +199,7 @@ name="SSPC_iOS_BVTRepository">
 				name="SumpController"
 				refimgid="624999ac-7152-42ef-a017-b925284bb9a5"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']
+					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Sump Controller']
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
@@ -1274,7 +1274,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			name="Date"
 			refimgid="c004d7c1-9c10-4394-9df7-36d44cb78be2"
 			searchtimeout="30000ms">
-				/dom[@domain='www.google.com']//div[#'rso']//span[@innertext~'^[0-9]{2,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']
+				/dom[@domain='www.google.com']//div[#'rso']//span[@innertext~'^[0-9]{1,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"

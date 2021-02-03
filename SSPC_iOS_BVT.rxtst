@@ -961,19 +961,19 @@
 						</testmodule>
 					</testcase>
 					<testcase
-					id="389d694c-fe67-414b-9425-b94ebe42460a"
-					name="Configurations">
-						<testmodule
-						id="90bd481a-0a9f-441c-ba5f-647d4b615862"
-						name="configurations">
-						</testmodule>
-					</testcase>
-					<testcase
 					id="f99b5a24-5c5e-4682-8aa4-de3eb08ce703"
 					name="Product_Support">
 						<testmodule
 						id="2b5b1fa8-ad92-493b-951a-3d81e5ce4cf1"
 						name="productsupport">
+						</testmodule>
+					</testcase>
+					<testcase
+					id="389d694c-fe67-414b-9425-b94ebe42460a"
+					name="Configurations">
+						<testmodule
+						id="90bd481a-0a9f-441c-ba5f-647d4b615862"
+						name="configurations">
 						</testmodule>
 					</testcase>
 					<testcase

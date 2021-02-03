@@ -319,7 +319,7 @@ mode="Global">
 		<touchrecorditem
 		duration="300ms"
 		elementlocation="Center"
-		enabled="True"
+		enabled="False"
 		fingerid="0"
 		isremote="False"
 		longtouchduration="1000ms"
@@ -379,7 +379,7 @@ mode="Global">
 		</touchrecorditem>
 		<explicitdelayitem
 		duration="5000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>

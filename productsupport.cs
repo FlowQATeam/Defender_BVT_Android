@@ -131,12 +131,12 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(11));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Product_SupportBack' at Center", repo.ComPentairPentairhome.Product_SupportBackInfo, new RecordItemIndex(12));
-            repo.ComPentairPentairhome.Product_SupportBack.Touch();
-            Delay.Milliseconds(300);
+            //Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.Product_SupportBack' at Center", repo.ComPentairPentairhome.Product_SupportBackInfo, new RecordItemIndex(12));
+            //repo.ComPentairPentairhome.Product_SupportBack.Touch();
+            //Delay.Milliseconds(300);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(13));
-            Delay.Duration(5000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(13));
+            //Delay.Duration(5000, false);
             
             Report.Log(ReportLevel.Info, "Application", "Killing application containing item 'ComPentairPentairhome'.", repo.ComPentairPentairhome.SelfInfo, new RecordItemIndex(14));
             Host.Current.KillApplication(repo.ComPentairPentairhome.Self);

@@ -2951,7 +2951,7 @@ namespace SSPC_iOS
                     base("UIWindow", "form", parentFolder, 30000, null, false, "fc27c716-d874-44cf-9784-24124e1b375f", "")
             {
                 _continueonprovisiomInfo = new RepoItemInfo(this, "ContinueonProvisiom", "container[@caption='']//container[@accessibilityid='shadowButton']", 30000, null, "3e305d14-7a70-4aed-a1f2-10c869b981c2");
-                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
+                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "container[@caption='']//container[@accessibilitylabel='Sump Controller']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
                 _addadeviceInfo = new RepoItemInfo(this, "AddADevice", "container[@caption='']//?/?/?/container[@accessibilitylabel='Add a Device']", 30000, null, "71073362-717a-4b38-b405-910e4011de39");
                 _bluetoothcontinueInfo = new RepoItemInfo(this, "BluetoothContinue", "container[@caption='']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "fa638f85-db6e-409a-9a5f-622470302660");
                 _deviceselectionInfo = new RepoItemInfo(this, "DeviceSelection", "container[@caption='']//?/?/?/container[@accessibilitylabel=$DeviceID]", 30000, null, "0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56");
@@ -3796,7 +3796,7 @@ namespace SSPC_iOS
                 _googleinputInfo = new RepoItemInfo(this, "GoogleInput", ".//form[#'tsf']//input[@title='Search']", 30000, null, "fccd9930-634b-45bd-9796-1a6b969c6d29");
                 _googlesearchbuttonInfo = new RepoItemInfo(this, "GoogleSearchButton", ".//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']", 30000, null, "6bee8828-b0ec-47a0-bc79-9d7dd6faba79");
                 _timeInfo = new RepoItemInfo(this, "Time", ".//div[#'rso']//div[@innertext<'am' or @innertext<'pm']", 30000, null, "36c41d67-2c1b-4f1f-8727-5b7178245ac1");
-                _dateInfo = new RepoItemInfo(this, "Date", ".//div[#'rso']//span[@innertext~'^[0-9]{2,}\\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \\s]\\s*[0-9]{2,}$']", 30000, null, "d3d1f492-5f85-4715-8928-6045f4500675");
+                _dateInfo = new RepoItemInfo(this, "Date", ".//div[#'rso']//span[@innertext~'^[0-9]{1,}\\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \\s]\\s*[0-9]{2,}$']", 30000, null, "d3d1f492-5f85-4715-8928-6045f4500675");
                 _dayInfo = new RepoItemInfo(this, "day", ".//div[#'rso']//div[@innertext=' Monday, ' or @innertext=' Tuesday, ' or @innertext=' Wednesday, ' or @innertext=' Thursday, ' or @innertext=' Friday, ' or @innertext=' Saturday, ' or @innertext=' Sunday, ']", 30000, null, "716eb87d-5ba0-4934-ab37-a41ee8c6076d");
             }
 

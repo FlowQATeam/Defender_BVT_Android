@@ -136,19 +136,19 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(12));
             Delay.Duration(10000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Killing application containing item 'ComPentairPentairhome'.", repo.ComPentairPentairhome.SelfInfo, new RecordItemIndex(13));
-            Host.Current.KillApplication(repo.ComPentairPentairhome.Self);
-            Delay.Milliseconds(0);
+            //Report.Log(ReportLevel.Info, "Application", "Killing application containing item 'ComPentairPentairhome'.", repo.ComPentairPentairhome.SelfInfo, new RecordItemIndex(13));
+            //Host.Current.KillApplication(repo.ComPentairPentairhome.Self);
+            //Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(14));
-            Delay.Duration(30000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 30s.", new RecordItemIndex(14));
+            //Delay.Duration(30000, false);
             
-            Report.Log(ReportLevel.Info, "Application", "Run mobile app 'com.pentair.pentairhome' on device 'Jyotiâ€™s iPhone'.", new RecordItemIndex(15));
-            Host.Local.RunMobileApp("Jyotiâ€™s iPhone", "com.pentair.pentairhome", false);
-            Delay.Milliseconds(3500);
+            //Report.Log(ReportLevel.Info, "Application", "Run mobile app 'com.pentair.pentairhome' on device 'Jyotiâ€™s iPhone'.", new RecordItemIndex(15));
+            //Host.Local.RunMobileApp("Jyotiâ€™s iPhone", "com.pentair.pentairhome", false);
+            //Delay.Milliseconds(3500);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(16));
-            Delay.Duration(10000, false);
+            //Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(16));
+            //Delay.Duration(10000, false);
             
         }
 

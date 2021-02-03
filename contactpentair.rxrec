@@ -304,7 +304,7 @@ mode="Global">
 			</bindings>
 		</explicitdelayitem>
 		<closeapprecorditem
-		enabled="True"
+		enabled="False"
 		graceperiod="10000ms"
 		method="KillProcess"
 		optional="False"
@@ -323,7 +323,7 @@ mode="Global">
 		</closeapprecorditem>
 		<explicitdelayitem
 		duration="30000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -334,7 +334,7 @@ mode="Global">
 		application="com.pentair.pentairhome"
 		devicename="Jyotiâ€™s iPhone"
 		duration="3500ms"
-		enabled="True"
+		enabled="False"
 		optional="False"
 		resetInitialState="False">
 			<comment>
@@ -344,7 +344,7 @@ mode="Global">
 		</runmobileapprecorditem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
