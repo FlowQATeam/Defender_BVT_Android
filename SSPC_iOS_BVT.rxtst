@@ -54,6 +54,7 @@
 			name="CancelEmptyWater">
 			</testcase>
 			<testcase
+			datasource="QA_Cred"
 			id="0f9ba6cc-d49e-417a-8690-940226f61780"
 			name="Factory_Reset">
 			</testcase>
@@ -388,6 +389,14 @@
 			name="Reset"
 			ref="aedaf9ec-e149-4987-a009-c7e9947aa840"
 			type="Recording">
+				<databinding>
+					<var
+					dataname="New NickName"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="15db34cc-b901-4dc4-b385-f561e02f4c65"
+					variablename="Nickname">
+					</var>
+				</databinding>
 			</testmodule>
 			<testcase
 			datasource="QA_Cred"
