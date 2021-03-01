@@ -276,6 +276,7 @@ namespace SSPC_iOS
         public partial class ComPentairPentairhomeAppFolder : RepoGenBaseFolder
         {
             SSPC_iOS_BVTRepositoryFolders.UIWindowFolder _uiwindow;
+            SSPC_iOS_BVTRepositoryFolders.TextNotificationsFolder _textnotifications;
             SSPC_iOS_BVTRepositoryFolders.HoursFolder _hours;
             SSPC_iOS_BVTRepositoryFolders.MinutesFolder _minutes;
             SSPC_iOS_BVTRepositoryFolders.AMPMFolder _ampm;
@@ -325,7 +326,6 @@ namespace SSPC_iOS
             RepoItemInfo _allnotificationsInfo;
             RepoItemInfo _pushnotificationsInfo;
             RepoItemInfo _emailnotificationsInfo;
-            RepoItemInfo _textnotificationsInfo;
             RepoItemInfo _wifiInfo;
             RepoItemInfo _configurationsInfo;
             RepoItemInfo _dryruntoggleInfo;
@@ -387,6 +387,7 @@ namespace SSPC_iOS
                     base("ComPentairPentairhome", "/mobileapp[@title='com.pentair.pentairhome']", parentFolder, 30000, null, false, "c7e40612-6fa9-4a97-9e7f-f9c63633507a", "")
             {
                 _uiwindow = new SSPC_iOS_BVTRepositoryFolders.UIWindowFolder(this);
+                _textnotifications = new SSPC_iOS_BVTRepositoryFolders.TextNotificationsFolder(this);
                 _hours = new SSPC_iOS_BVTRepositoryFolders.HoursFolder(this);
                 _minutes = new SSPC_iOS_BVTRepositoryFolders.MinutesFolder(this);
                 _ampm = new SSPC_iOS_BVTRepositoryFolders.AMPMFolder(this);
@@ -397,7 +398,7 @@ namespace SSPC_iOS
                 _secondscreensipeInfo = new RepoItemInfo(this, "SecondScreenSipe", "form//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']", 30000, null, "ca1a9a33-105f-43e3-aa2e-46b26e689aeb");
                 _thirdscreenswipeInfo = new RepoItemInfo(this, "ThirdScreenSwipe", "form//container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']/container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']", 30000, null, "53846f8e-2948-45ba-9142-84cb0fc04610");
                 _lastscreen_next_buttonInfo = new RepoItemInfo(this, "LastScreen_Next_button", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/next@2x.png']", 30000, null, "a160189d-551d-4c0f-a37b-858ef718fc53");
-                _homeiconInfo = new RepoItemInfo(this, "HomeIcon", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']", 30000, null, "0e2f5221-0653-4cb4-a215-2241276c2b54");
+                _homeiconInfo = new RepoItemInfo(this, "HomeIcon", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/dashboardOutline@2x.png']", 30000, null, "0e2f5221-0653-4cb4-a215-2241276c2b54");
                 _changewifinetworkInfo = new RepoItemInfo(this, "ChangeWiFiNetwork", "form//?/container[@accessibilitylabel='Change WiFi Network']/container[@accessibilitylabel='Change WiFi Network']", 30000, null, "a90ab021-1630-42b5-9ec5-ae0e6e5e37b3");
                 _email_inputInfo = new RepoItemInfo(this, "Email_input", "form//text[@accessibilityid='LoginEmailTextField']", 30000, null, "c130c937-30e1-4ae5-ad3f-94702942e02d");
                 _passordinputInfo = new RepoItemInfo(this, "PassordInput", ".//text[@accessibilityid='SignInPasswordField']", 30000, null, "11b8d397-25d4-4392-9419-32efd6e7a8be");
@@ -433,10 +434,9 @@ namespace SSPC_iOS
                 _notificationsInfo = new RepoItemInfo(this, "Notifications", "form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Notifications']", 30000, null, "ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26");
                 _productsupportInfo = new RepoItemInfo(this, "ProductSupport", ".//container[@accessibilitylabel='Product Support']", 30000, null, "b0217722-6d80-4f77-8206-6c154f210880");
                 _contactpentairInfo = new RepoItemInfo(this, "ContactPentair", "form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Contact Pentair']", 30000, null, "7fcbd103-cb91-4865-982d-679d1dd258c6");
-                _allnotificationsInfo = new RepoItemInfo(this, "AllNotifications", ".//container[@accessibilitylabel='All Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]", 30000, null, "553e9cdf-911e-482b-bc72-880cd2175a08");
-                _pushnotificationsInfo = new RepoItemInfo(this, "PushNotifications", ".//container[@accessibilitylabel='Push Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]", 30000, null, "279a2efd-5a62-4beb-b501-cf5a20f57e8d");
-                _emailnotificationsInfo = new RepoItemInfo(this, "EmailNotifications", ".//container[@accessibilitylabel='Email Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]", 30000, null, "cc8353e6-4430-4c5a-8233-aea21ce2447a");
-                _textnotificationsInfo = new RepoItemInfo(this, "TextNotifications", ".//container[@accessibilitylabel~'^Text']/container[@accessibilitylabel~'^Text']/container[@accessibilitylabel~'^Text']/?/container[@accessibilitylabel~'^Text']/container[2]/container[@accessibilityid='toggle']", 30000, null, "af6e59ef-0221-4ea9-8129-b3002934c7a5");
+                _allnotificationsInfo = new RepoItemInfo(this, "AllNotifications", "form//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']", 30000, null, "553e9cdf-911e-482b-bc72-880cd2175a08");
+                _pushnotificationsInfo = new RepoItemInfo(this, "PushNotifications", "form//container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']", 30000, null, "279a2efd-5a62-4beb-b501-cf5a20f57e8d");
+                _emailnotificationsInfo = new RepoItemInfo(this, "EmailNotifications", "form//container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']", 30000, null, "cc8353e6-4430-4c5a-8233-aea21ce2447a");
                 _wifiInfo = new RepoItemInfo(this, "WiFi", ".//container[@accessibilitylabel='WiFi']", 30000, null, "71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6");
                 _configurationsInfo = new RepoItemInfo(this, "Configurations", ".//container[@accessibilitylabel='Configurations']", 30000, null, "7028503f-19a0-46b8-a8ae-a7832d172a26");
                 _dryruntoggleInfo = new RepoItemInfo(this, "DryRunToggle", ".//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']", 30000, null, "c5891aba-693c-4ac2-8323-060e2b33a439");
@@ -1569,30 +1569,6 @@ namespace SSPC_iOS
                 get
                 {
                     return _emailnotificationsInfo;
-                }
-            }
-
-            /// <summary>
-            /// The TextNotifications item.
-            /// </summary>
-            [RepositoryItem("af6e59ef-0221-4ea9-8129-b3002934c7a5")]
-            public virtual Ranorex.Container TextNotifications
-            {
-                get
-                {
-                    return _textnotificationsInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The TextNotifications item info.
-            /// </summary>
-            [RepositoryItemInfo("af6e59ef-0221-4ea9-8129-b3002934c7a5")]
-            public virtual RepoItemInfo TextNotificationsInfo
-            {
-                get
-                {
-                    return _textnotificationsInfo;
                 }
             }
 
@@ -2878,6 +2854,15 @@ namespace SSPC_iOS
             }
 
             /// <summary>
+            /// The TextNotifications folder.
+            /// </summary>
+            [RepositoryFolder("af6e59ef-0221-4ea9-8129-b3002934c7a5")]
+            public virtual SSPC_iOS_BVTRepositoryFolders.TextNotificationsFolder TextNotifications
+            {
+                get { return _textnotifications; }
+            }
+
+            /// <summary>
             /// The Hours folder.
             /// </summary>
             [RepositoryFolder("660f785d-ed74-4ce2-a7e6-b7c402a17395")]
@@ -2951,7 +2936,7 @@ namespace SSPC_iOS
                     base("UIWindow", "form", parentFolder, 30000, null, false, "fc27c716-d874-44cf-9784-24124e1b375f", "")
             {
                 _continueonprovisiomInfo = new RepoItemInfo(this, "ContinueonProvisiom", "container[@caption='']//container[@accessibilityid='shadowButton']", 30000, null, "3e305d14-7a70-4aed-a1f2-10c869b981c2");
-                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "container[@caption='']//container[@accessibilitylabel='Sump Controller']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
+                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
                 _addadeviceInfo = new RepoItemInfo(this, "AddADevice", "container[@caption='']//?/?/?/container[@accessibilitylabel='Add a Device']", 30000, null, "71073362-717a-4b38-b405-910e4011de39");
                 _bluetoothcontinueInfo = new RepoItemInfo(this, "BluetoothContinue", "container[@caption='']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "fa638f85-db6e-409a-9a5f-622470302660");
                 _deviceselectionInfo = new RepoItemInfo(this, "DeviceSelection", "container[@caption='']//?/?/?/container[@accessibilitylabel=$DeviceID]", 30000, null, "0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56");
@@ -3323,6 +3308,46 @@ namespace SSPC_iOS
                 get
                 {
                     return _screenshotInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The TextNotificationsFolder folder.
+        /// </summary>
+        [RepositoryFolder("af6e59ef-0221-4ea9-8129-b3002934c7a5")]
+        public partial class TextNotificationsFolder : RepoGenBaseFolder
+        {
+
+            /// <summary>
+            /// Creates a new TextNotifications  folder.
+            /// </summary>
+            public TextNotificationsFolder(RepoGenBaseFolder parentFolder) :
+                    base("TextNotifications", "form//container[@accessibilitylabel~'Text']/?/?/container[@accessibilitylabel~'Text']/container[@accessibilitylabel~'Text']/container[1]/container[@accessibilityid='toggle']/container[@caption='']", parentFolder, 30000, null, false, "af6e59ef-0221-4ea9-8129-b3002934c7a5", "")
+            {
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("af6e59ef-0221-4ea9-8129-b3002934c7a5")]
+            public virtual Ranorex.Container Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("af6e59ef-0221-4ea9-8129-b3002934c7a5")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
                 }
             }
         }
@@ -3793,8 +3818,8 @@ namespace SSPC_iOS
             public GoogleAppFolder(RepoGenBaseFolder parentFolder) :
                     base("Google", "/dom[@domain='www.google.com']", parentFolder, 30000, null, false, "47b23a98-2f5e-40fa-9324-6a4fd4552a0c", "")
             {
-                _googleinputInfo = new RepoItemInfo(this, "GoogleInput", ".//form[#'tsf']//input[@title='Search']", 30000, null, "fccd9930-634b-45bd-9796-1a6b969c6d29");
-                _googlesearchbuttonInfo = new RepoItemInfo(this, "GoogleSearchButton", ".//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']", 30000, null, "6bee8828-b0ec-47a0-bc79-9d7dd6faba79");
+                _googleinputInfo = new RepoItemInfo(this, "GoogleInput", ".//form/div[2]/div[1]/div[1]/div/div[2]", 30000, null, "fccd9930-634b-45bd-9796-1a6b969c6d29");
+                _googlesearchbuttonInfo = new RepoItemInfo(this, "GoogleSearchButton", ".//input[@name='btnK']", 30000, null, "6bee8828-b0ec-47a0-bc79-9d7dd6faba79");
                 _timeInfo = new RepoItemInfo(this, "Time", ".//div[#'rso']//div[@innertext<'am' or @innertext<'pm']", 30000, null, "36c41d67-2c1b-4f1f-8727-5b7178245ac1");
                 _dateInfo = new RepoItemInfo(this, "Date", ".//div[#'rso']//span[@innertext~'^[0-9]{1,}\\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \\s]\\s*[0-9]{2,}$']", 30000, null, "d3d1f492-5f85-4715-8928-6045f4500675");
                 _dayInfo = new RepoItemInfo(this, "day", ".//div[#'rso']//div[@innertext=' Monday, ' or @innertext=' Tuesday, ' or @innertext=' Wednesday, ' or @innertext=' Thursday, ' or @innertext=' Friday, ' or @innertext=' Saturday, ' or @innertext=' Sunday, ']", 30000, null, "716eb87d-5ba0-4934-ab37-a41ee8c6076d");
@@ -3828,11 +3853,11 @@ namespace SSPC_iOS
             /// The GoogleInput item.
             /// </summary>
             [RepositoryItem("fccd9930-634b-45bd-9796-1a6b969c6d29")]
-            public virtual Ranorex.InputTag GoogleInput
+            public virtual Ranorex.DivTag GoogleInput
             {
                 get
                 {
-                    return _googleinputInfo.CreateAdapter<Ranorex.InputTag>(true);
+                    return _googleinputInfo.CreateAdapter<Ranorex.DivTag>(true);
                 }
             }
 

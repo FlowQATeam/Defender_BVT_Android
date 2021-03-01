@@ -147,8 +147,8 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(15));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.TextNotifications' at Center", repo.ComPentairPentairhome.TextNotificationsInfo, new RecordItemIndex(16));
-            repo.ComPentairPentairhome.TextNotifications.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.TextNotifications' at Center", repo.ComPentairPentairhome.TextNotifications.SelfInfo, new RecordItemIndex(16));
+            repo.ComPentairPentairhome.TextNotifications.Self.Touch();
             Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(17));
@@ -163,15 +163,15 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(19));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.TextNotifications' at Center", repo.ComPentairPentairhome.TextNotificationsInfo, new RecordItemIndex(20));
-            repo.ComPentairPentairhome.TextNotifications.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.TextNotifications' at Center", repo.ComPentairPentairhome.TextNotifications.SelfInfo, new RecordItemIndex(20));
+            repo.ComPentairPentairhome.TextNotifications.Self.Touch();
             Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(21));
             Delay.Duration(2000, false);
             
-            //Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.TextNotifications' at Center", repo.ComPentairPentairhome.TextNotificationsInfo, new RecordItemIndex(22));
-            //repo.ComPentairPentairhome.TextNotifications.Touch();
+            //Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.TextNotifications' at Center", repo.ComPentairPentairhome.TextNotifications.SelfInfo, new RecordItemIndex(22));
+            //repo.ComPentairPentairhome.TextNotifications.Self.Touch();
             //Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(23));

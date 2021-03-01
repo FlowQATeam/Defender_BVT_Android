@@ -73,7 +73,7 @@ name="SSPC_iOS_BVTRepository">
 			name="HomeIcon"
 			refimgid="eed9ea74-45e0-4f29-b2b2-4b2ac89aff1f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']
+				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='assets/src/Common_Feature/Images/dashboardOutline@2x.png']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -199,7 +199,7 @@ name="SSPC_iOS_BVTRepository">
 				name="SumpController"
 				refimgid="624999ac-7152-42ef-a017-b925284bb9a5"
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Sump Controller']
+					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
@@ -537,7 +537,7 @@ name="SSPC_iOS_BVTRepository">
 			name="AllNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='All Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
+				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -546,7 +546,7 @@ name="SSPC_iOS_BVTRepository">
 			name="PushNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Push Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
+				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']
 			</item>
 			<item
 			addcaps="container,ioselement,mobileuielement"
@@ -555,17 +555,20 @@ name="SSPC_iOS_BVTRepository">
 			name="EmailNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
 			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Email Notifications']/?/?/?/?/container[2]/container[@accessibilityid='toggle']/container[@caption='']/container[3]
+				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']
 			</item>
-			<item
-			addcaps="container,ioselement,mobileuielement"
+			<folder
 			capname="container"
 			id="af6e59ef-0221-4ea9-8129-b3002934c7a5"
+			isrooted="True"
 			name="TextNotifications"
-			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
-			searchtimeout="30000ms">
-				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel~'^Text']/container[@accessibilitylabel~'^Text']/container[@accessibilitylabel~'^Text']/?/container[@accessibilitylabel~'^Text']/container[2]/container[@accessibilityid='toggle']
-			</item>
+			refimgid="ebe40aec-699e-443a-9d65-3adaaebd40bb"
+			searchtimeout="30000ms"
+			usecache="False">
+				<basepath>
+					/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel~'Text']/?/?/container[@accessibilitylabel~'Text']/container[@accessibilitylabel~'Text']/container[1]/container[@accessibilityid='toggle']/container[@caption='']
+				</basepath>
+			</folder>
 			<item
 			addcaps="container,ioselement,mobileuielement"
 			capname="container"
@@ -1235,18 +1238,16 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		isrooted="True"
 		name="Google"
 		refimgid="9ab7d3e0-b403-4cc9-b8ba-82c1dff5220f"
-		refpath="/dom[@domain='www.google.com']"
 		searchtimeout="30000ms"
 		usecache="False">
 			<item
 			addcaps="unknown,webelement,inputtag"
-			capname="inputtag"
+			capname="divtag"
 			id="fccd9930-634b-45bd-9796-1a6b969c6d29"
 			name="GoogleInput"
 			refimgid="75b94808-258a-4ffd-9d85-a023784d582f"
-			refpath="/dom[@domain='www.google.com']//form[#'tsf']/div[2]/div[1]/div[1]/div/div[2]/input[@title='Search']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.google.com']//form[#'tsf']//input[@title='Search']
+				/dom[@domain='www.google.com']//form/div[2]/div[1]/div[1]/div/div[2]
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1254,9 +1255,8 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="6bee8828-b0ec-47a0-bc79-9d7dd6faba79"
 			name="GoogleSearchButton"
 			refimgid="83abb57b-ccda-4329-ae72-0f3f4d9b257c"
-			refpath="/dom[@domain='www.google.com']//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']"
 			searchtimeout="30000ms">
-				/dom[@domain='www.google.com']//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']
+				/dom[@domain='www.google.com']//input[@name='btnK']
 			</item>
 			<item
 			addcaps="unknown,webelement,divtag"

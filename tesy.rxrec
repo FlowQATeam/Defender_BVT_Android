@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1698f784-acef-40a6-b1a5-3460ad747737"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="tesy"
+	namespace="SSPC_iOS">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="Chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				www.google.com
+			</url>
+		</openwebsiterecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="042761be-07e8-4710-9090-4657c7a8ba3d"
+	name="SSPC_iOS_BVTRepository"
+	relativepath="SSPC_iOS_BVTRepository.rxrep">
+		<codegen
+		classname="SSPC_iOS_BVTRepository"
+		namespace="SSPC_iOS">
+		</codegen>
+		<rootfolder
+		id="f06284d3-1084-4358-8b35-59ebc0068d7e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		tesy.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

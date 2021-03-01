@@ -269,7 +269,7 @@ mode="Global">
 		<touchrecorditem
 		duration="300ms"
 		elementlocation="Center"
-		enabled="True"
+		enabled="False"
 		fingerid="0"
 		isremote="False"
 		longtouchduration="1000ms"
@@ -296,7 +296,16 @@ mode="Global">
 		</touchrecorditem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="True"
+		enabled="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+		<explicitdelayitem
+		duration="30000ms"
+		enabled="False"
 		optional="False">
 			<comment>
 			</comment>
@@ -304,7 +313,7 @@ mode="Global">
 			</bindings>
 		</explicitdelayitem>
 		<closeapprecorditem
-		enabled="False"
+		enabled="True"
 		graceperiod="10000ms"
 		method="KillProcess"
 		optional="False"
@@ -321,20 +330,11 @@ mode="Global">
 				</path>
 			</info>
 		</closeapprecorditem>
-		<explicitdelayitem
-		duration="30000ms"
-		enabled="False"
-		optional="False">
-			<comment>
-			</comment>
-			<bindings>
-			</bindings>
-		</explicitdelayitem>
 		<runmobileapprecorditem
 		application="com.pentair.pentairhome"
 		devicename="Jyotiâ€™s iPhone"
 		duration="3500ms"
-		enabled="False"
+		enabled="True"
 		optional="False"
 		resetInitialState="False">
 			<comment>
@@ -344,7 +344,7 @@ mode="Global">
 		</runmobileapprecorditem>
 		<explicitdelayitem
 		duration="10000ms"
-		enabled="False"
+		enabled="True"
 		optional="False">
 			<comment>
 			</comment>

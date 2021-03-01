@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.7m"
+		durationms="162546"
+		type="root"
+		rid="63de5c86e4ea3ee"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="E1238621"
+		rxversion="9.3.4.0"
+		host="INNOID0077"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="02-Feb-21 12:56:15 PM"
+		timestampiso="2021-02-02T07:26:15"
+		endtime="02-Feb-21 12:58:57 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ScheduleHealthTestWeekly">
+		<detail>
+			ScheduleHealthTestWeekly
+		</detail>
+		<errormessage>
+			Failed to find item 'SSPC_iOS_BVTRepository.Google.Date'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.676"
+			timeRelativeToTestModuleStartTime="00:05.676"
+			timeWallClock="12:56:20"
+			time="00:05.676"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>GoogleSearchTimeNow, TimeValue, Day, DateSchedule, DateMonth, Nickname, DayInitial, TimeHrs, TimeMins, TimeAmPm, DateNumber
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.700"
+			timeRelativeToTestModuleStartTime="00:05.700"
+			timeWallClock="12:56:20"
+			time="00:05.700"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.HomeIcon' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']"
+				itempath=".//container[@accessibilitylabel='assets/src/Common_Feature/Images/homeOutline@2x.png']"
+				fullname="SSPC_iOS_BVTRepository.ComPentairPentairhome.HomeIcon"
+				id="0e2f522106534cb4a2152241276c2b54"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="212"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:07.944"
+			timeRelativeToTestModuleStartTime="01:07.944"
+			timeWallClock="12:57:23"
+			time="01:07.944"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="216"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:09.954"
+			timeRelativeToTestModuleStartTime="01:09.954"
+			timeWallClock="12:57:25"
+			time="01:09.954"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.SSPCtileClick' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Sump Controller']"
+				itempath="form//container[@accessibilitylabel=$Nickname]"
+				fullname="SSPC_iOS_BVTRepository.ComPentairPentairhome.SSPCtileClick"
+				id="758fc078344c4b30ad4afe168ab18e8d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="219"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:13.249"
+			timeRelativeToTestModuleStartTime="01:13.249"
+			timeWallClock="12:57:28"
+			time="01:13.249"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="223"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:15.254"
+			timeRelativeToTestModuleStartTime="01:15.254"
+			timeWallClock="12:57:30"
+			time="01:15.254"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.FrequencySelection' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']/container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']"
+				itempath=".//container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']/container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']"
+				fullname="SSPC_iOS_BVTRepository.ComPentairPentairhome.FrequencySelection"
+				id="f049c4d8db4648ef99b33de9ff7b50d3"
+				timeout="30000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="226"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.682"
+			timeRelativeToTestModuleStartTime="01:18.682"
+			timeWallClock="12:57:33"
+			time="01:18.682"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="230"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:20.687"
+			timeRelativeToTestModuleStartTime="01:20.687"
+			timeWallClock="12:57:35"
+			time="01:20.687"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.ScheduleHealthTestDropDown' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']"
+				itempath=".//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']"
+				fullname="SSPC_iOS_BVTRepository.ComPentairPentairhome.ScheduleHealthTestDropDown"
+				id="189bacf90d5e40fa9d4481a406083e69"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="233"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:25.136"
+			timeRelativeToTestModuleStartTime="01:25.136"
+			timeWallClock="12:57:40"
+			time="01:25.136"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="237"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:27.139"
+			timeRelativeToTestModuleStartTime="01:27.139"
+			timeWallClock="12:57:42"
+			time="01:27.139"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComPentairPentairhome.ScheduleHTWeeklySelec' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']"
+				itempath=".//container[@accessibilitylabel='Weekly']"
+				fullname="SSPC_iOS_BVTRepository.ComPentairPentairhome.ScheduleHTWeeklySelec"
+				id="b6060a8a0a1c4f52b0643fde61f57e6e"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="240"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:29.510"
+			timeRelativeToTestModuleStartTime="01:29.510"
+			timeWallClock="12:57:44"
+			time="01:29.510"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="244"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:31.513"
+			timeRelativeToTestModuleStartTime="01:31.513"
+			timeWallClock="12:57:46"
+			time="01:31.513"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://www.google.com' with browser 'Chrome' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="247"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:31.587"
+			timeRelativeToTestModuleStartTime="01:31.587"
+			timeWallClock="12:57:46"
+			time="01:31.587"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="251"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:33.594"
+			timeRelativeToTestModuleStartTime="01:33.594"
+			timeWallClock="12:57:48"
+			time="01:33.594"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'Queen Creek time now' with focus on 'Google.GoogleInput'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//form[#'tsf']//input[@title='Search']"
+				itempath=".//form[#'tsf']//input[@title='Search']"
+				fullname="SSPC_iOS_BVTRepository.Google.GoogleInput"
+				id="fccd9930634b45bd97961a6b969c6d29"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="254"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:36.677"
+			timeRelativeToTestModuleStartTime="01:36.677"
+			timeWallClock="12:57:51"
+			time="01:36.677"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="13"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="258"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:38.680"
+			timeRelativeToTestModuleStartTime="01:38.680"
+			timeWallClock="12:57:53"
+			time="01:38.680"
+			level="Info"
+			category="Invoke action">
+			<message>
+				Invoking PerformClick() on item 'Google.GoogleSearchButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']"
+				itempath=".//form[#'tsf']/div[2]/div[1]/div[2]/div[2]/div[2]/center/input[@name='btnK']"
+				fullname="SSPC_iOS_BVTRepository.Google.GoogleSearchButton"
+				id="6bee8828b0ec47a0bc799d7dd6faba79"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="261"
+				itemindex="14"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:39.124"
+			timeRelativeToTestModuleStartTime="01:39.124"
+			timeWallClock="12:57:54"
+			time="01:39.124"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 2s.
+			</message>
+			<metainfo
+				itemindex="15"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="265"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:41.136"
+			timeRelativeToTestModuleStartTime="01:41.136"
+			timeWallClock="12:57:56"
+			time="01:41.136"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'InnerText' from item 'Google.Time' and assigning its value to variable 'TimeValue'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//div[#'rso']//div[@innertext&lt;'am' or @innertext&lt;'pm']"
+				itempath=".//div[#'rso']//div[@innertext&lt;'am' or @innertext&lt;'pm']"
+				fullname="SSPC_iOS_BVTRepository.Google.Time"
+				id="36c41d672c1b4f1f87275b7178245ac1"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="268"
+				itemindex="16"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:41.605"
+			timeRelativeToTestModuleStartTime="01:41.605"
+			timeWallClock="12:57:56"
+			time="01:41.605"
+			level="Info"
+			category="Get Value"
+			errimg="images_Schedule_ba223f4b\Schedule_ba223f4b_22db78bf_trace.jpg"
+			errthumb="images_Schedule_ba223f4b\Schedule_ba223f4b_22db78bf_trace_thumb.jpg">
+			<message>
+				Getting attribute 'InnerText' from item 'Google.day' and assigning its value to variable 'Day'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//div[#'rso']//div[@innertext=' Monday, ' or @innertext=' Tuesday, ' or @innertext=' Wednesday, ' or @innertext=' Thursday, ' or @innertext=' Friday, ' or @innertext=' Saturday, ' or @innertext=' Sunday, ']"
+				itempath=".//div[#'rso']//div[@innertext=' Monday, ' or @innertext=' Tuesday, ' or @innertext=' Wednesday, ' or @innertext=' Thursday, ' or @innertext=' Friday, ' or @innertext=' Saturday, ' or @innertext=' Sunday, ']"
+				fullname="SSPC_iOS_BVTRepository.Google.day"
+				id="716eb87d5ba04934ab37a41ee8c6076d"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="275"
+				itemindex="18"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:41.698"
+			timeRelativeToTestModuleStartTime="01:41.698"
+			timeWallClock="12:57:56"
+			time="01:41.698"
+			level="Info"
+			category="Get Value"
+			errimg="images_Schedule_ba223f4b\Schedule_ba223f4b_ff1b20a0_trace.jpg"
+			errthumb="images_Schedule_ba223f4b\Schedule_ba223f4b_ff1b20a0_trace_thumb.jpg">
+			<message>
+				Getting attribute 'InnerText' from item 'Google.Date' and assigning its value to variable 'DateSchedule'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//div[#'rso']//span[@innertext~'/^[0-9]{1,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']"
+				itempath=".//div[#'rso']//span[@innertext~'/^[0-9]{1,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']"
+				fullname="SSPC_iOS_BVTRepository.Google.Date"
+				id="d3d1f4925f85471589286045f4500675"
+				timeout="60000"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="282"
+				itemindex="20"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:42.443"
+			timeRelativeToTestModuleStartTime="02:42.443"
+			timeWallClock="12:58:57"
+			time="02:42.443"
+			level="Error"
+			category="Module"
+			errimg="images_Schedule_ba223f4b\Schedule_ba223f4b_f09d1d71_trace.jpg"
+			errthumb="images_Schedule_ba223f4b\Schedule_ba223f4b_f09d1d71_trace_thumb.jpg">
+			<message>
+				Failed to find item 'SSPC_iOS_BVTRepository.Google.Date'.<br/>No element found for path '/dom[@domain='www.google.com']//div[#'rso']//span[@innertext~'/^[0-9]{1,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']' at step 'descendant-or-self::span[@innertext~'/^[0-9]{1,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']' after 113 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.GoogleAppFolder.get_Date() in c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\SSPC_iOS_BVTRepository.cs:line 3907&#13;&#10;   at SSPC_iOS.ScheduleHealthTestWeekly.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs:line 283&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\e1238621\Documents\Ranorex\RanorexStudio Projects\SSPC_iOS_BVT\ScheduleHealthTestWeekly.cs"
+				codeline="283"
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//div[#'rso']//span[@innertext~'/^[0-9]{1,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']"
+				itempath=".//div[#'rso']//span[@innertext~'/^[0-9]{1,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']"
+				fullname="SSPC_iOS_BVTRepository.Google.Date"
+				id="d3d1f4925f85471589286045f4500675"
+				timeout="60000"
+				failedStep="descendant-or-self::span[@innertext~'/^[0-9]{1,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']"
+				bestPathPrefix="/dom[@domain='www.google.com']/descendant-or-self::div[#'rso']"
+				loglvl="Error"
+				itemindex="20">
+			</metainfo>
+		</item>
+	</activity>
+</report>
