@@ -96,16 +96,6 @@ namespace SSPC_iOS
             set { repo.Wifissid = value; }
         }
 
-        /// <summary>
-        /// Gets or sets the value of variable WifiPageContainer.
-        /// </summary>
-        [TestVariable("adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd")]
-        public string WifiPageContainer
-        {
-            get { return repo.WifiPageContainer; }
-            set { repo.WifiPageContainer = value; }
-        }
-
 #endregion
 
         /// <summary>
@@ -208,8 +198,8 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 5s.", new RecordItemIndex(20));
             Delay.Duration(5000, false);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.WifiContinue' at Center", repo.ComPentairPentairhome.UIWindow.WifiContinueInfo, new RecordItemIndex(21));
-            repo.ComPentairPentairhome.UIWindow.WifiContinue.Touch();
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.UIWindow.ChangeWiFiContinue' at Center", repo.ComPentairPentairhome.UIWindow.ChangeWiFiContinueInfo, new RecordItemIndex(21));
+            repo.ComPentairPentairhome.UIWindow.ChangeWiFiContinue.Touch();
             Delay.Milliseconds(300);
             
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 10s.", new RecordItemIndex(22));

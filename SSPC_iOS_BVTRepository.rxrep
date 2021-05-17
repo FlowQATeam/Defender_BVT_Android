@@ -27,6 +27,7 @@ name="SSPC_iOS_BVTRepository">
 			id="8d63248f-3f50-418d-96dd-1c443ea3d79c"
 			name="Skip"
 			refimgid="98b531ea-7e70-4615-ad36-d95064a86bba"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilityid='AppWalkthroughNextButton']/container[@accessibilitylabel='Skip']
 			</item>
@@ -36,6 +37,7 @@ name="SSPC_iOS_BVTRepository">
 			id="4b107309-1dd6-40f3-8506-42a7d972701c"
 			name="firstscreensipe"
 			refimgid="8309cd6d-7f7a-41ec-a72f-5457162eeb39"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']/container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']
 			</item>
@@ -45,6 +47,7 @@ name="SSPC_iOS_BVTRepository">
 			id="ca1a9a33-105f-43e3-aa2e-46b26e689aeb"
 			name="SecondScreenSipe"
 			refimgid="e484a18f-479d-461f-a0e7-51340a0fbf1d"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']
 			</item>
@@ -54,6 +57,7 @@ name="SSPC_iOS_BVTRepository">
 			id="53846f8e-2948-45ba-9142-84cb0fc04610"
 			name="ThirdScreenSwipe"
 			refimgid="ee472771-8dfb-4dae-9ea0-15c7015fa9d7"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']/container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']
 			</item>
@@ -63,6 +67,7 @@ name="SSPC_iOS_BVTRepository">
 			id="a160189d-551d-4c0f-a37b-858ef718fc53"
 			name="LastScreen_Next_button"
 			refimgid="eed9ea74-45e0-4f29-b2b2-4b2ac89aff1f"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='assets/src/Common_Feature/Images/next@2x.png']
 			</item>
@@ -72,6 +77,7 @@ name="SSPC_iOS_BVTRepository">
 			id="0e2f5221-0653-4cb4-a215-2241276c2b54"
 			name="HomeIcon"
 			refimgid="eed9ea74-45e0-4f29-b2b2-4b2ac89aff1f"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='assets/src/Common_Feature/Images/dashboardOutline@2x.png']
 			</item>
@@ -81,6 +87,7 @@ name="SSPC_iOS_BVTRepository">
 			id="a90ab021-1630-42b5-9ec5-ae0e6e5e37b3"
 			name="ChangeWiFiNetwork"
 			refimgid="eed9ea74-45e0-4f29-b2b2-4b2ac89aff1f"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//?/container[@accessibilitylabel='Change WiFi Network']/container[@accessibilitylabel='Change WiFi Network']
 			</item>
@@ -90,6 +97,7 @@ name="SSPC_iOS_BVTRepository">
 			id="c130c937-30e1-4ae5-ad3f-94702942e02d"
 			name="Email_input"
 			refimgid="98952963-2ad8-4a0c-8f2f-3cea81338ca1"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//text[@accessibilityid='LoginEmailTextField']
 			</item>
@@ -99,6 +107,7 @@ name="SSPC_iOS_BVTRepository">
 			id="11b8d397-25d4-4392-9419-32efd6e7a8be"
 			name="PassordInput"
 			refimgid="335d30ee-98ea-4a23-b152-067e874b7c3d"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilityid='SignInPasswordField']
 			</item>
@@ -108,6 +117,7 @@ name="SSPC_iOS_BVTRepository">
 			id="8e44d3c0-98e2-4c97-b05a-163b289503d2"
 			name="GetStartedLogin"
 			refimgid="37ecd87d-ed16-4e90-8102-20a080bb6c81"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='LoginEmailNextButton']
 			</item>
@@ -117,6 +127,7 @@ name="SSPC_iOS_BVTRepository">
 			id="6470d2c6-179a-4f24-ae1e-790f2ae12d7c"
 			name="ViewPassord"
 			refimgid="62f96bd7-a963-4eff-a508-a39e76ccbc89"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='assets/src/Common_Feature/Images/hideEye.png']
 			</item>
@@ -126,6 +137,7 @@ name="SSPC_iOS_BVTRepository">
 			id="32226905-c9fe-46e8-bce2-869e48fd700d"
 			name="LOGIN"
 			refimgid="dc592974-ef79-4224-8565-58efca56781c"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='SignInSignInButton']/?/container[@accessibilitylabel='Sign In']
 			</item>
@@ -135,6 +147,7 @@ name="SSPC_iOS_BVTRepository">
 			id="7033cf0f-f499-4413-a4e8-08725378b2fa"
 			name="RunTestButton"
 			refimgid="37ecd87d-ed16-4e90-8102-20a080bb6c81"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']
 			</item>
@@ -144,6 +157,7 @@ name="SSPC_iOS_BVTRepository">
 			id="ab14a731-663a-40a3-875f-db549bce0fc6"
 			name="CancelEmptyWater"
 			refimgid="10587bf5-0695-483b-80cf-b3996ac404e6"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='CANCEL']
 			</item>
@@ -153,6 +167,7 @@ name="SSPC_iOS_BVTRepository">
 			id="758fc078-344c-4b30-ad4a-fe168ab18e8d"
 			name="SSPCtileClick"
 			refimgid="e60b9523-a499-4a99-a75b-cbdfa60f1b7e"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel=$Nickname]
 			</item>
@@ -162,6 +177,7 @@ name="SSPC_iOS_BVTRepository">
 			id="ac681454-2db1-4a9c-a23b-d5d9288f1d0c"
 			name="WiFiUpdateOK"
 			refimgid="e60b9523-a499-4a99-a75b-cbdfa60f1b7e"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='OK']
 			</item>
@@ -171,6 +187,7 @@ name="SSPC_iOS_BVTRepository">
 			id="59aae09b-80da-4122-96c9-89c2aeba4127"
 			name="EMPTYWATER"
 			refimgid="e21c646d-2b69-4f35-b274-b9b8a87e4565"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//form//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='EMPTY WATER']
 			</item>
@@ -189,6 +206,7 @@ name="SSPC_iOS_BVTRepository">
 				id="3e305d14-7a70-4aed-a1f2-10c869b981c2"
 				name="ContinueonProvisiom"
 				refimgid="31b6cf20-988b-47a9-95ef-247b6f330650"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilityid='shadowButton']
 				</item>
@@ -198,6 +216,7 @@ name="SSPC_iOS_BVTRepository">
 				id="78a19a1e-1106-48cf-9d05-5e0d10279e91"
 				name="SumpController"
 				refimgid="624999ac-7152-42ef-a017-b925284bb9a5"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']
 				</item>
@@ -207,8 +226,9 @@ name="SSPC_iOS_BVTRepository">
 				id="71073362-717a-4b38-b405-910e4011de39"
 				name="AddADevice"
 				refimgid="dfa85399-7990-44e5-beea-c6c1e503ed38"
+				robustPath=""
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//?/?/?/container[@accessibilitylabel='Add a Device']
+					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Set up your first device ']/container[@accessibilitylabel='Set up your first device ']/container[@accessibilitylabel='Set up your first device ']
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"
@@ -216,6 +236,7 @@ name="SSPC_iOS_BVTRepository">
 				id="fa638f85-db6e-409a-9a5f-622470302660"
 				name="BluetoothContinue"
 				refimgid="1de1fabd-de2b-40b6-9d64-a4005bbd8de9"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
 				</item>
@@ -225,6 +246,7 @@ name="SSPC_iOS_BVTRepository">
 				id="0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56"
 				name="DeviceSelection"
 				refimgid="9a0aa283-0795-48f1-9db2-3b52771770ca"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//?/?/?/container[@accessibilitylabel=$DeviceID]
 				</item>
@@ -234,6 +256,7 @@ name="SSPC_iOS_BVTRepository">
 				id="2045f3f7-b3dd-40f5-91e1-5989b02d3ec2"
 				name="ConnectionEstablishedContinue"
 				refimgid="2b3f8d7b-db08-4594-9418-a025536c672e"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Bluetooth® WirelessConnection Established Sump Controller  is now paired to Bluetooth wireless. Stay connected while you''re away by connecting your Sump Controller to your home WiFi network. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']
 				</item>
@@ -243,6 +266,7 @@ name="SSPC_iOS_BVTRepository">
 				id="6d6b9d8e-0812-4ce6-a177-a0a7d5dca1ff"
 				name="WifiSelection"
 				refimgid="1c6356e0-d7d7-4a81-b384-1694107c2009"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//?/?/?/?/container[@accessibilitylabel=$Wifissid]/container[@accessibilitylabel=$Wifissid]
 				</item>
@@ -252,6 +276,7 @@ name="SSPC_iOS_BVTRepository">
 				id="f2e03ff2-6b26-45a2-9198-784fdb16aa00"
 				name="WifiPasswordinput"
 				refimgid="453adfba-73e1-48c4-bdab-1d3dadeace43"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//text
 				</item>
@@ -261,8 +286,19 @@ name="SSPC_iOS_BVTRepository">
 				id="9d4c0f9e-5c63-422a-965a-16e1b6eed521"
 				name="WifiContinue"
 				refimgid="31f83a88-ea22-466b-bec8-6cfd940a096d"
+				robustPath=""
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel=$WifiPageContainer]/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
+					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Connect YourDevice to WiFi NETWORK satsaheb Password CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
+				</item>
+				<item
+				addcaps="container,ioselement,mobileuielement"
+				capname="container"
+				id="8d1fd6b0-cca3-4ae7-8044-2a2f8db51f94"
+				name="ChangeWiFiContinue"
+				refimgid="31f83a88-ea22-466b-bec8-6cfd940a096d"
+				robustPath=""
+				searchtimeout="30000ms">
+					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Connect YourDevice to WiFi NETWORK Galaxy S20+f314 Password CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
 				</item>
 				<item
 				addcaps="text,ioselement,mobileuielement"
@@ -270,6 +306,7 @@ name="SSPC_iOS_BVTRepository">
 				id="6707a9b2-d556-45e3-9d88-a6b0d71e59c0"
 				name="NicknameInput"
 				refimgid="82f3ff70-6c73-4cca-a1de-35d00571df30"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Nickname']/container[2]/container[1]/text
 				</item>
@@ -279,6 +316,7 @@ name="SSPC_iOS_BVTRepository">
 				id="4fd1ade9-3909-429a-b779-36154d94d0e5"
 				name="AddressContinue"
 				refimgid="209eb678-b7ea-489e-bcda-91b4067e6732"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form//container[@caption='']//container[@accessibilitylabel~'^Please']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
 				</item>
@@ -288,6 +326,7 @@ name="SSPC_iOS_BVTRepository">
 				id="685ee44f-20f8-4db5-9f3e-7779e213245d"
 				name="NicknameSave"
 				refimgid="c3a2122d-1eb5-4d17-8c99-d85a46b64820"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form/?/?/?//?/?/container[@accessibilitylabel='SAVE']
 				</item>
@@ -297,6 +336,7 @@ name="SSPC_iOS_BVTRepository">
 				id="5cd27f50-eed2-4a9e-98c5-8620aa443184"
 				name="InstallationCompleteContinue"
 				refimgid="e1d4c976-b1fa-4df1-b136-fabc5aa5f833"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
 				</item>
@@ -307,6 +347,7 @@ name="SSPC_iOS_BVTRepository">
 				name="ScreenShot"
 				refimgid="ab121ae4-e75f-4640-b75a-3040f380e727"
 				refpath="/mobileapp[@title='com.pentair.pentairhome']/form"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']/form
 				</item>
@@ -320,6 +361,7 @@ name="SSPC_iOS_BVTRepository">
 			id="6c5bbb07-a55d-4a05-b8e2-d6174001970e"
 			name="setupBluetoothScerollUp"
 			refimgid="72feaf21-e364-4a06-8d06-f2bc9d38f0e9"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[1]
 			</item>
@@ -329,6 +371,7 @@ name="SSPC_iOS_BVTRepository">
 			id="e15dfd23-4784-414f-b8b3-f67fe2604fdc"
 			name="Manual"
 			refimgid="774dcff0-df33-4970-97ab-bd4908a29db8"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Manual']
 			</item>
@@ -338,6 +381,7 @@ name="SSPC_iOS_BVTRepository">
 			id="03645d76-99e7-4cbf-a722-8ab2331c1ee5"
 			name="AutoMode"
 			refimgid="774dcff0-df33-4970-97ab-bd4908a29db8"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Auto']
 			</item>
@@ -347,6 +391,7 @@ name="SSPC_iOS_BVTRepository">
 			id="e3a9451c-c388-491f-b063-273b19cd079f"
 			name="ScheduleHealthTestClick"
 			refimgid="774dcff0-df33-4970-97ab-bd4908a29db8"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']/container[2]/container[@caption='']
 			</item>
@@ -356,6 +401,7 @@ name="SSPC_iOS_BVTRepository">
 			id="189bacf9-0d5e-40fa-9d44-81a406083e69"
 			name="ScheduleHealthTestDropDown"
 			refimgid="774dcff0-df33-4970-97ab-bd4908a29db8"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']
 			</item>
@@ -365,6 +411,7 @@ name="SSPC_iOS_BVTRepository">
 			id="a7109814-1d91-406f-8343-71f017d6fbd0"
 			name="ManualScrollUp"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel~'^Health']
 			</item>
@@ -374,6 +421,7 @@ name="SSPC_iOS_BVTRepository">
 			id="7014a205-1671-4535-b47b-8432337d41f2"
 			name="ScheduleHTDailySelect"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']
 			</item>
@@ -383,6 +431,7 @@ name="SSPC_iOS_BVTRepository">
 			id="597d9c86-cd2c-471c-987b-36aaf361ed97"
 			name="FrequencyDaily"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="0ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']/container[@accessibilitylabel='Daily']
 			</item>
@@ -392,6 +441,7 @@ name="SSPC_iOS_BVTRepository">
 			id="eac003a3-a9cf-45c0-a9c8-403af7796040"
 			name="FrequencyWeekly"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="0ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']/container[@accessibilitylabel='Weekly']
 			</item>
@@ -401,6 +451,7 @@ name="SSPC_iOS_BVTRepository">
 			id="f049c4d8-db46-48ef-99b3-3de9ff7b50d3"
 			name="FrequencySelection"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="0ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']/container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']
 			</item>
@@ -410,6 +461,7 @@ name="SSPC_iOS_BVTRepository">
 			id="5a3c5b3e-a088-4bfc-8e21-713028f4cd96"
 			name="FrequencyDisable"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="0ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Disable']/container[@accessibilitylabel='Disable']
 			</item>
@@ -419,6 +471,7 @@ name="SSPC_iOS_BVTRepository">
 			id="b6060a8a-0a1c-4f52-b064-3fde61f57e6e"
 			name="ScheduleHTWeeklySelec"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']
 			</item>
@@ -428,6 +481,7 @@ name="SSPC_iOS_BVTRepository">
 			id="08f7964c-cc18-488b-8f1e-c8ed6fb856d2"
 			name="ScheduleHTmonthlySelect"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']
 			</item>
@@ -437,6 +491,7 @@ name="SSPC_iOS_BVTRepository">
 			id="45416e30-d38e-429c-8306-e18beca1470f"
 			name="ScheduleHTDisableSelect"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Disable']
 			</item>
@@ -446,6 +501,7 @@ name="SSPC_iOS_BVTRepository">
 			id="91d48bfc-55be-4003-a9f9-be9f6424a240"
 			name="Manual_frequency"
 			refimgid="c8427243-b3ba-40ba-8c2f-0a662e9cd695"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Frequency (min) Will run this often']/container[2]/container[@caption='']/text
 			</item>
@@ -455,6 +511,7 @@ name="SSPC_iOS_BVTRepository">
 			id="c83b0829-0a13-41e1-af17-576343abcebc"
 			name="Manula_Duration"
 			refimgid="c8427243-b3ba-40ba-8c2f-0a662e9cd695"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Duration (sec) For this amount of time']/container[2]/container[@caption='']/text
 			</item>
@@ -464,6 +521,7 @@ name="SSPC_iOS_BVTRepository">
 			id="ad65e02b-9954-45c0-83a6-02be02731ded"
 			name="Timer_Mode"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[1]
 			</item>
@@ -473,6 +531,7 @@ name="SSPC_iOS_BVTRepository">
 			id="9bd35de3-cf06-4710-ab76-01747ae7533c"
 			name="TimerModeHrs"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//text[@accessibilitylabel=$TimerModeHrs]
 			</item>
@@ -482,6 +541,7 @@ name="SSPC_iOS_BVTRepository">
 			id="32246d19-00e7-415d-8b6c-9a8b9dec292e"
 			name="TimerModeMins"
 			refimgid="add63c4f-4727-4846-9aac-2523dc9544de"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='3 2 1 0 Horizontal scroll bar, 1 page 6 5 4 3 Horizontal scroll bar, 1 page 4 3 2 Horizontal scroll bar, 1 page']/iospicker/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel=$TimerModeMins]/text[@accessibilitylabel=$TimerModeMins]
 			</item>
@@ -491,6 +551,7 @@ name="SSPC_iOS_BVTRepository">
 			id="cd87c5cb-e3d7-45d4-9ff2-4d2552ab2cf3"
 			name="ProductOverview"
 			refimgid="e9e5d277-e864-4c5f-a4f8-18d7c69620ec"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview']
 			</item>
@@ -500,6 +561,7 @@ name="SSPC_iOS_BVTRepository">
 			id="ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81"
 			name="Settingsicon"
 			refimgid="e9e5d277-e864-4c5f-a4f8-18d7c69620ec"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='headerRightImage']/container[@caption='']
 			</item>
@@ -509,6 +571,7 @@ name="SSPC_iOS_BVTRepository">
 			id="ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26"
 			name="Notifications"
 			refimgid="03b2711c-e877-4f55-9b37-236a3476db69"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Notifications']
 			</item>
@@ -518,6 +581,7 @@ name="SSPC_iOS_BVTRepository">
 			id="b0217722-6d80-4f77-8206-6c154f210880"
 			name="ProductSupport"
 			refimgid="949a62d8-2511-4b89-9c04-1d94dabe4f16"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Support']
 			</item>
@@ -527,6 +591,7 @@ name="SSPC_iOS_BVTRepository">
 			id="7fcbd103-cb91-4865-982d-679d1dd258c6"
 			name="ContactPentair"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Contact Pentair']
 			</item>
@@ -536,6 +601,7 @@ name="SSPC_iOS_BVTRepository">
 			id="553e9cdf-911e-482b-bc72-880cd2175a08"
 			name="AllNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']
 			</item>
@@ -545,6 +611,7 @@ name="SSPC_iOS_BVTRepository">
 			id="279a2efd-5a62-4beb-b501-cf5a20f57e8d"
 			name="PushNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']
 			</item>
@@ -554,6 +621,7 @@ name="SSPC_iOS_BVTRepository">
 			id="cc8353e6-4430-4c5a-8233-aea21ce2447a"
 			name="EmailNotifications"
 			refimgid="9b67fc65-ea8d-4e82-b24f-05febe06ff8f"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']/form//container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']
 			</item>
@@ -575,6 +643,7 @@ name="SSPC_iOS_BVTRepository">
 			id="71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6"
 			name="WiFi"
 			refimgid="c71c1e42-0297-40d5-ae4d-8d75fd29f9bd"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='WiFi']
 			</item>
@@ -584,6 +653,7 @@ name="SSPC_iOS_BVTRepository">
 			id="7028503f-19a0-46b8-a8ae-a7832d172a26"
 			name="Configurations"
 			refimgid="e30d484f-ee1c-4c6a-b9a7-42df784d9873"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Configurations']
 			</item>
@@ -593,6 +663,7 @@ name="SSPC_iOS_BVTRepository">
 			id="c5891aba-693c-4ac2-8323-060e2b33a439"
 			name="DryRunToggle"
 			refimgid="e30d484f-ee1c-4c6a-b9a7-42df784d9873"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']
 			</item>
@@ -602,6 +673,7 @@ name="SSPC_iOS_BVTRepository">
 			id="4767f91e-3131-41e1-9c57-4f63664338d0"
 			name="DryRunInput"
 			refimgid="e30d484f-ee1c-4c6a-b9a7-42df784d9873"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Dry Time Delay']/container[1]/container[@caption='']/text
 			</item>
@@ -611,6 +683,7 @@ name="SSPC_iOS_BVTRepository">
 			id="d1b33ff3-f50e-4551-866b-a6fc22322952"
 			name="ExtraRunTimeInput"
 			refimgid="e30d484f-ee1c-4c6a-b9a7-42df784d9873"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Extra Runtime 0 sec 15 sec']/container[@accessibilitylabel='Extra Runtime']/container[1]/container[@caption='']/text
 			</item>
@@ -620,6 +693,7 @@ name="SSPC_iOS_BVTRepository">
 			id="1fa89dd5-bb26-40eb-876c-cf09d1a887b5"
 			name="DryRunHelp"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Dry Run Limit']/container[@accessibilitylabel='Dry Run Limit']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']
 			</item>
@@ -629,6 +703,7 @@ name="SSPC_iOS_BVTRepository">
 			id="dde37c4e-ec47-465a-b0e8-777428facd68"
 			name="ExtraRuntimeHelp"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Extra Runtime']/?/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']
 			</item>
@@ -638,6 +713,7 @@ name="SSPC_iOS_BVTRepository">
 			id="12f9c676-f781-4063-843e-3dc70ddff407"
 			name="ConfiguratioonsOK"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			robustPath=""
 			searchtimeout="0ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='OK']/container[@accessibilitylabel='OK']
 			</item>
@@ -647,6 +723,7 @@ name="SSPC_iOS_BVTRepository">
 			id="8630d7d1-0e05-467c-9948-274da923385a"
 			name="Analytics"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Analytics']
 			</item>
@@ -656,6 +733,7 @@ name="SSPC_iOS_BVTRepository">
 			id="9c430dce-5bca-4490-9337-08d1282252c2"
 			name="Daily"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Daily']
 			</item>
@@ -665,6 +743,7 @@ name="SSPC_iOS_BVTRepository">
 			id="1cb0ace5-04e3-493b-b405-4b5bd7544d7d"
 			name="Weekly"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Weekly']
 			</item>
@@ -674,6 +753,7 @@ name="SSPC_iOS_BVTRepository">
 			id="3d1e2259-453f-4d08-a571-1aeb3604dcfc"
 			name="Monthly"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Monthly']
 			</item>
@@ -683,6 +763,7 @@ name="SSPC_iOS_BVTRepository">
 			id="07df800c-4430-4a53-b18c-1949a219900a"
 			name="QuarterlyAnalytics"
 			refimgid="3192b2e7-dce5-47b4-be23-f6715a0433e7"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Quarterly']
 			</item>
@@ -692,6 +773,7 @@ name="SSPC_iOS_BVTRepository">
 			id="c56dc28a-6af0-45bc-879e-14d5651e8f83"
 			name="RemoveDevice"
 			refimgid="454104db-d25b-461a-b171-7c5f693917dd"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Remove Device']
 			</item>
@@ -701,6 +783,7 @@ name="SSPC_iOS_BVTRepository">
 			id="fcb0ff28-6ed9-443b-9765-55110015548f"
 			name="RemoveButton"
 			refimgid="454104db-d25b-461a-b171-7c5f693917dd"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='REMOVE']
 			</item>
@@ -710,6 +793,7 @@ name="SSPC_iOS_BVTRepository">
 			id="25696fa1-c51b-4557-b218-9ad53c829bc4"
 			name="RemoveCancelButton"
 			refimgid="454104db-d25b-461a-b171-7c5f693917dd"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='CANCEL']
 			</item>
@@ -719,6 +803,7 @@ name="SSPC_iOS_BVTRepository">
 			id="6469f44f-2daf-4ced-ba45-7c2258b9f165"
 			name="RemoveCrossButton"
 			refimgid="454104db-d25b-461a-b171-7c5f693917dd"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/close2@2x.png']
 			</item>
@@ -728,6 +813,7 @@ name="SSPC_iOS_BVTRepository">
 			id="a6ea21be-ce99-4ffd-a8c9-87cb3b98082f"
 			name="SettingsScrollUp"
 			refimgid="454104db-d25b-461a-b171-7c5f693917dd"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page']/?/container[@caption='']
 			</item>
@@ -737,6 +823,7 @@ name="SSPC_iOS_BVTRepository">
 			id="736399e1-07e2-4fe7-bf61-4611e4272249"
 			name="nickname"
 			refimgid="cc28d508-6590-43bc-90c3-2301a49ff7de"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel=$NickNameClick]/?/?/container[@accessibilitylabel=$NickNameClick]/container[@accessibilitylabel=$Nickname]
 			</item>
@@ -746,6 +833,7 @@ name="SSPC_iOS_BVTRepository">
 			id="851640cc-90d5-45ab-9652-ad8cd0605dc7"
 			name="nicknameedit"
 			refimgid="c8427243-b3ba-40ba-8c2f-0a662e9cd695"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[2]/container[1]/text
 			</item>
@@ -755,6 +843,7 @@ name="SSPC_iOS_BVTRepository">
 			id="0f2bdb1e-a5d0-43e7-b2ba-5c733f4b4221"
 			name="current_address"
 			refimgid="04debb78-066a-416e-89e6-1654daba8928"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']/container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']
 			</item>
@@ -764,6 +853,7 @@ name="SSPC_iOS_BVTRepository">
 			id="33b564d6-8e10-4a32-8cdf-1f748c008f47"
 			name="StartManual"
 			refimgid="33da4e13-f74c-43cd-a320-5ebce800b90e"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Start']
 			</item>
@@ -774,6 +864,7 @@ name="SSPC_iOS_BVTRepository">
 			name="DeviceUpdatedOK"
 			refimgid="a192626f-5c74-4cf0-8bbb-183817aa4bf3"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='Device Updated Your product information has been updated successfully. OK']/container[@accessibilitylabel='Device Updated Your product information has been updated successfully. OK']/container[@accessibilitylabel='Device Updated Your product information has been updated successfully. OK']/container[@accessibilitylabel='Device Updated Your product information has been updated successfully. OK']/container[@accessibilitylabel='OK']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='OK']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='OK']
 			</item>
@@ -783,6 +874,7 @@ name="SSPC_iOS_BVTRepository">
 			id="3fa958b8-bdad-4a90-be3c-5e205013d65d"
 			name="ScheduleDay"
 			refimgid="a192626f-5c74-4cf0-8bbb-183817aa4bf3"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel=$DayInitial]
 			</item>
@@ -792,6 +884,7 @@ name="SSPC_iOS_BVTRepository">
 			id="21012d44-7afa-41a8-832f-e09421a35dbd"
 			name="SSPCSupport"
 			refimgid="4ac7248b-9aab-46dc-85be-26bf39b572af"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//dom[@domain='www.pentair.com']//main/div[2]/div[1]/section/article/div/div/div/div
 			</item>
@@ -801,6 +894,7 @@ name="SSPC_iOS_BVTRepository">
 			id="dde58a2c-bb7b-4e2a-88e5-b68052936121"
 			name="PentairSupport"
 			refimgid="4ac7248b-9aab-46dc-85be-26bf39b572af"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//dom[@domain='www.pentair.com']//main/div[1]/section/div[2]/div[1]/div/div[2]
 			</item>
@@ -810,6 +904,7 @@ name="SSPC_iOS_BVTRepository">
 			id="a462a1d5-353d-43e9-b205-d51d907eb722"
 			name="NotificationsContinue"
 			refimgid="9ee03ce5-804a-40da-ab82-569c14dafd2b"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel~'^Emails']/container[@accessibilitylabel='CONTINUE']
 			</item>
@@ -820,6 +915,7 @@ name="SSPC_iOS_BVTRepository">
 			name="AppFeedbackClose"
 			refimgid="68e876b8-c1a1-4903-8afd-df06ef2e8fb4"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='What do you think of the app? Horizontal scroll bar, 1 page']/container[@accessibilitylabel='What do you think of the app? Horizontal scroll bar, 1 page']/container[@accessibilitylabel='What do you think of the app? Horizontal scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='What do you think of the app?']/container[@accessibilitylabel='What do you think of the app?']/container[@accessibilitylabel='What do you think of the app?']/container[1]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/closeIconBlue@2x.png']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/closeIconBlue@2x.png']
 			</item>
@@ -829,6 +925,7 @@ name="SSPC_iOS_BVTRepository">
 			id="63896f03-abd2-4362-87a6-8dda4506d2bb"
 			name="TextSMSAccept"
 			refimgid="eba0e3fb-6e63-4780-8dd5-2ecc9a405e80"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='ACCEPT']
 			</item>
@@ -838,6 +935,7 @@ name="SSPC_iOS_BVTRepository">
 			id="a6765dee-b10e-417e-a874-cc4b71cf89d0"
 			name="TextSMSCancel"
 			refimgid="eba0e3fb-6e63-4780-8dd5-2ecc9a405e80"
+			robustPath=""
 			searchtimeout="0ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='plainButton']/container[@accessibilitylabel='CANCEL']
 			</item>
@@ -848,6 +946,7 @@ name="SSPC_iOS_BVTRepository">
 			name="EnterEmailTextLogin"
 			refimgid="12d3569c-d575-4254-af50-36d08e8727c7"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Bring Your Water to Life. Everything you need to Improve the quality of water In your home. Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Enter your email to get started. Email Address Get Started Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='Enter your email to get started. Email Address Get Started']/container[@accessibilitylabel='Enter your email to get started.']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Enter your email to get started.']
 			</item>
@@ -857,6 +956,7 @@ name="SSPC_iOS_BVTRepository">
 			id="41ea38b8-cc26-410a-855b-65ccdb806f8d"
 			name="LoginUpperRight"
 			refimgid="59b5002a-a2b7-477a-9d3f-bcf20d62fdd4"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Password Forgot Password Sign In Vertical scroll bar, 3 pages Horizontal scroll bar, 1 page']
 			</item>
@@ -867,6 +967,7 @@ name="SSPC_iOS_BVTRepository">
 			name="ChangeAddress"
 			refimgid="9f0eeaaf-eaf8-4279-90af-2a30ddac14c5"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel>'Add a Device Status Everything OK Sump Controller AUTO Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank']/container[@accessibilitylabel='Product Overview Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Overview Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Overview Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Overview Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='Manufacturer Pentair Model SPC Device ID PNR02SPC1000008091 Controller Software Version 2.9.5 Nickname Sump Controller Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address 22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']
 			</item>
@@ -876,6 +977,7 @@ name="SSPC_iOS_BVTRepository">
 			id="34208c47-c228-4907-99b0-bf3d02458e24"
 			name="ChangeAddressDropDown"
 			refimgid="9f0eeaaf-eaf8-4279-90af-2a30ddac14c5"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']
 			</item>
@@ -886,6 +988,7 @@ name="SSPC_iOS_BVTRepository">
 			name="AddNewAddress"
 			refimgid="bbad893f-fa4a-4817-8959-b035d8b32bb5"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 1 page']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 1 page']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 1 page']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita + ADD A NEW ADDRESS']/container[@accessibilitylabel='+ ADD A NEW ADDRESS']/container[@accessibilitylabel='+ ADD A NEW ADDRESS']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='+ ADD A NEW ADDRESS']/container[@accessibilitylabel='+ ADD A NEW ADDRESS']
 			</item>
@@ -896,6 +999,7 @@ name="SSPC_iOS_BVTRepository">
 			name="EMainStOrange"
 			refimgid="4e090963-b7f2-4fab-8496-a57ee2e3e9e8"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@caption='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS']/container[@accessibilitylabel='E Main St, Orange']/container[@accessibilitylabel='E Main St, Orange']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='E Main St, Orange']/container[@accessibilitylabel='E Main St, Orange']
 			</item>
@@ -906,6 +1010,7 @@ name="SSPC_iOS_BVTRepository">
 			name="Container22475EMunozStQueenCreek"
 			refimgid="fa5d9860-9420-49a6-b4b3-100d5a7a506c"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages']/container[@caption='']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek 19828 Via Kalban, Santa Clarita E Main St, Orange + ADD A NEW ADDRESS']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek']
 			</item>
@@ -915,6 +1020,7 @@ name="SSPC_iOS_BVTRepository">
 			id="3a6b8fb3-ab97-43f8-85b0-52866db54662"
 			name="ChangeAddressContinue"
 			refimgid="fa5d9860-9420-49a6-b4b3-100d5a7a506c"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']
 			</item>
@@ -924,6 +1030,7 @@ name="SSPC_iOS_BVTRepository">
 			id="9d4c4267-2e6f-4e91-b25c-c7d3d677f745"
 			name="AddressUpdatedOK"
 			refimgid="fa5d9860-9420-49a6-b4b3-100d5a7a506c"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='OK']
 			</item>
@@ -934,6 +1041,7 @@ name="SSPC_iOS_BVTRepository">
 			name="WEREWAITINGTOHEARFROMYOU"
 			refimgid="c3d7e946-25d6-49c5-8376-aec8e512ab21"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/dom[@caption='Home App | Contact Us | Pentair']/body/div[1]/main/div[2]/div[1]/section/article/div/div/div/div/div/h2[@innertext='WE''RE WAITING TO HEAR FROM YOU']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//dom[@caption&gt;'Home App | Contact Us | P']//h2[@innertext&gt;'WE''RE WAITING TO HEAR FROM']
 			</item>
@@ -944,6 +1052,7 @@ name="SSPC_iOS_BVTRepository">
 			name="SumpControllerSupport"
 			refimgid="d5f4b955-a48c-429a-9a74-ce37b1fe858c"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Today Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Monthly Last test: Jan 06, 2021 OK Mode Auto Manual Timer Last run: Today, 02:12 pm History']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/dom[@caption='Sump Controller | Home App Support | Pentair']/body/div[1]/main/div[2]/div[1]/section/article/div/div/div/div/h2[@innertext='Sump Controller Support']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//dom[@caption&gt;'Sump Controller | Home App']//h2[@innertext='Sump Controller Support']
 			</item>
@@ -953,6 +1062,7 @@ name="SSPC_iOS_BVTRepository">
 			id="64dcdca3-14ed-4187-9b88-5248a9ceb08d"
 			name="ScheduleSave"
 			refimgid="3c61e795-4c2d-4b66-a7dc-64b95aa3c79c"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']
 			</item>
@@ -962,6 +1072,7 @@ name="SSPC_iOS_BVTRepository">
 			id="8e9aa462-4f8a-494b-a243-de8701b6cead"
 			name="Histy"
 			refimgid="3c61e795-4c2d-4b66-a7dc-64b95aa3c79c"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='chartImage']/container[@accessibilitylabel='History']
 			</item>
@@ -978,6 +1089,7 @@ name="SSPC_iOS_BVTRepository">
 				id="9613783b-b93f-407c-80e4-97f09947b781"
 				name="SchduleHrs"
 				refimgid="a192626f-5c74-4cf0-8bbb-183817aa4bf3"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[12]']//listitem[@text=$TimeHrs]
 				</item>
@@ -998,6 +1110,7 @@ name="SSPC_iOS_BVTRepository">
 				id="3c6a2953-c2dd-47d5-aab6-c57516768607"
 				name="ScheduleMins"
 				refimgid="a192626f-5c74-4cf0-8bbb-183817aa4bf3"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[60]']//listitem[@text=$TimeMins]
 				</item>
@@ -1018,6 +1131,7 @@ name="SSPC_iOS_BVTRepository">
 				id="97d2b7de-d180-409a-8d86-c611b6936497"
 				name="ScheduleAMPM"
 				refimgid="a192626f-5c74-4cf0-8bbb-183817aa4bf3"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[2]']///list[@accessibilitylabel='Component 0']/listitem[@text=$TimeAmPm]
 				</item>
@@ -1031,6 +1145,7 @@ name="SSPC_iOS_BVTRepository">
 			id="47fcfcfc-9823-48fc-8ea5-d9075e815185"
 			name="MonthlyDayClick"
 			refimgid="19b240d9-b6fd-48d6-8f8e-32841d0e5326"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//?/container[@accessibilitylabel=$DateNumber]
 			</item>
@@ -1047,6 +1162,7 @@ name="SSPC_iOS_BVTRepository">
 				id="796ec2d7-c73b-4512-8250-353a4388231f"
 				name="TimerMins"
 				refimgid="a192626f-5c74-4cf0-8bbb-183817aa4bf3"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[60]']//listitem[@text=$TimerMins]
 				</item>
@@ -1067,6 +1183,7 @@ name="SSPC_iOS_BVTRepository">
 				id="5d7ae532-70af-4cc9-9b6f-531961ff4f67"
 				name="timerHrs"
 				refimgid="a192626f-5c74-4cf0-8bbb-183817aa4bf3"
+				robustPath=""
 				searchtimeout="30000ms">
 					/mobileapp[@title='com.pentair.pentairhome']//iospicker[@componentrowcounts='[12]']//listitem[@text=$TimerHrs]
 				</item>
@@ -1081,6 +1198,7 @@ name="SSPC_iOS_BVTRepository">
 			name="timerStart"
 			refimgid="4b0e7faa-5779-4998-906d-0dacd0a9a4a0"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']/container[@caption='']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Add a Device Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller OFFLINE Last run: None Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Sump Controller Problem Detected 1 Alert']/container[@accessibilitylabel>'Sump Controller Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank Last emptied']/container[@accessibilitylabel>'Sump Controller Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank Last emptied']/container[@accessibilitylabel>'Sump Controller Problem Detected 1 Alert Your Sump Controller is offline Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Health Test Run Test Frequency Monthly Last test: None Pending Mode Auto Manual Timer Last run: None History Water Tank Last emptied']/container[@accessibilitylabel='Set Sump Controller Timer 0 Horizontal scroll bar, 1 page 3 2 1 0 Horizontal scroll bar, 1 page 1 0 Horizontal scroll bar, 1 page hours 2 1 0 Horizontal scroll bar, 1 page 2 5 4 3 Horizontal scroll bar, 1 page 4 3 2 1 Horizontal scroll bar, 1 page min START']/container[@accessibilitylabel='Set Sump Controller Timer 0 Horizontal scroll bar, 1 page 3 2 1 0 Horizontal scroll bar, 1 page 1 0 Horizontal scroll bar, 1 page hours 2 1 0 Horizontal scroll bar, 1 page 2 5 4 3 Horizontal scroll bar, 1 page 4 3 2 1 Horizontal scroll bar, 1 page min START']/container[@accessibilitylabel='Set Sump Controller Timer 0 Horizontal scroll bar, 1 page 3 2 1 0 Horizontal scroll bar, 1 page 1 0 Horizontal scroll bar, 1 page hours 2 1 0 Horizontal scroll bar, 1 page 2 5 4 3 Horizontal scroll bar, 1 page 4 3 2 1 Horizontal scroll bar, 1 page min START']/container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']
 			</item>
@@ -1090,6 +1208,7 @@ name="SSPC_iOS_BVTRepository">
 			id="6e7d497c-d4ce-4e51-a01a-8123becf06f9"
 			name="Monthlytimeclick"
 			refimgid="fc09e570-e512-47ae-abb8-47936f4efe6e"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//?/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']
 			</item>
@@ -1100,6 +1219,7 @@ name="SSPC_iOS_BVTRepository">
 			name="Somethingwentwrongcheckpassword"
 			refimgid="3b01b726-5eb1-48ac-b4a7-7c232e1db4f5"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@accessibilitylabel='ERROR']/container[@caption='']/container[@caption='']/container[@caption='' and @containertype='']/container[3]/container[1]/container[@caption='']/container[@caption='']/container[@accessibilitylabel='OK']/container[@caption='']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='OK']/container[@caption='']
 			</item>
@@ -1110,6 +1230,7 @@ name="SSPC_iOS_BVTRepository">
 			name="Product_SupportBack"
 			refimgid="e138b37b-c641-4ef7-b562-3c814a6b750b"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']
 			</item>
@@ -1120,6 +1241,7 @@ name="SSPC_iOS_BVTRepository">
 			name="ContactPentairBack"
 			refimgid="0025a4bc-a43b-4ba2-9ad5-c32cab0c8666"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support Vertical scroll bar, 4 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']
 			</item>
@@ -1130,6 +1252,7 @@ name="SSPC_iOS_BVTRepository">
 			name="SumpControllerHomeAppSupportPen"
 			refimgid="4de7a18f-51c5-45df-aead-05b585011741"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']/container[@caption='']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel>'Add a Device Status Everything OK SSPC QA 8091 AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC QA 8091 Health Test Run Test Frequency Disable Last test: Jan 21, 2021 OK Mode Auto Manual Timer Last run: Yesterday, 06:26 pm']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 5 pages Horizontal scroll bar, 1 page']/dom[@domain='www.pentair.com']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//dom[@domain='www.pentair.com']
 			</item>
@@ -1140,6 +1263,7 @@ name="SSPC_iOS_BVTRepository">
 			name="Factory_Reset_info"
 			refimgid="41bd9959-6eda-4849-9bf4-2f486533164b"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel='Configurations Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Configurations Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Configurations Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Configurations Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset']/container[@accessibilitylabel='Factory Reset Factory Reset Reset']/container[@accessibilitylabel='Factory Reset Factory Reset Reset']/container[@accessibilitylabel='Factory Reset']/container[@accessibilitylabel='Factory Reset']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Factory Reset']/container[@accessibilitylabel='Factory Reset']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']
 			</item>
@@ -1150,6 +1274,7 @@ name="SSPC_iOS_BVTRepository">
 			name="Resetlink"
 			refimgid="be11e0f4-04a1-4b02-8af3-7591897745b2"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'Add a Device Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Add a Device Pool &amp; Spa  IntelliSync    IntelliConnect    ChemCheck    Intelliflo3    Prowler 930W    color sync   Home  Water Softener    Sump Controller    Salt Level Sensor    Backup']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel>'My Devices Home Sump Controller Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page My Devices Sump Controller Health Test Run Test Frequency']/container[@accessibilitylabel='Configurations Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Configurations Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Configurations Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Configurations Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='Dry Run Limit Dry Time Delay 0 sec 600 sec Extra Runtime Extra Runtime 0 sec 15 sec Factory Reset Factory Reset Reset']/container[@accessibilitylabel='Factory Reset Factory Reset Reset']/container[@accessibilitylabel='Factory Reset Factory Reset Reset']/container[@accessibilitylabel='Factory Reset Reset']/container[@accessibilitylabel='Reset']/container[@accessibilitylabel='Reset']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Reset']/container[@accessibilitylabel='Reset']
 			</item>
@@ -1160,8 +1285,42 @@ name="SSPC_iOS_BVTRepository">
 			name="RESETButton"
 			refimgid="d2be770b-1d42-453a-bfe7-c74f3a57b293"
 			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='Factory Reset Factory Reset returns all values in the device to the factory settings. It does not change WiFi settings. RESET CANCEL']/container[@accessibilitylabel='Factory Reset Factory Reset returns all values in the device to the factory settings. It does not change WiFi settings. RESET CANCEL']/container[@accessibilitylabel='Factory Reset Factory Reset returns all values in the device to the factory settings. It does not change WiFi settings. RESET CANCEL']/container[@accessibilitylabel='Factory Reset Factory Reset returns all values in the device to the factory settings. It does not change WiFi settings. RESET CANCEL']/container[@accessibilitylabel='Factory Reset Factory Reset returns all values in the device to the factory settings. It does not change WiFi settings. RESET CANCEL']/container[@accessibilitylabel='RESET CANCEL']/container[@accessibilitylabel='RESET']/container[@accessibilitylabel='RESET']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='RESET']/container[@accessibilitylabel='RESET']
+			</item>
+			<item
+			addcaps="container,ioselement,mobileuielement"
+			capname="container"
+			id="54f39d03-facf-43e4-836c-bfea701dac4d"
+			name="DeviceSupport"
+			refimgid="cbb1cec8-79ee-42f1-a5b6-f72c9f5ad37d"
+			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='' and @containertype='']/container[@accessibilitylabel='General Support Device Support Report Bugs Horizontal scroll bar, 1 page Vertical scroll bar, 1 page']/container[@accessibilitylabel='General Support Device Support Report Bugs Horizontal scroll bar, 1 page Vertical scroll bar, 1 page']/container[@accessibilitylabel='General Support Device Support Report Bugs Horizontal scroll bar, 1 page Vertical scroll bar, 1 page']/container[@accessibilitylabel='General Support Device Support Report Bugs Horizontal scroll bar, 1 page Vertical scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='General Support Device Support Report Bugs']/container[@accessibilitylabel='Device Support']/container[@accessibilitylabel='Device Support']/container[@accessibilitylabel='Device Support']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Device Support']/container[@accessibilitylabel='Device Support']/container[@accessibilitylabel='Device Support']
+			</item>
+			<item
+			addcaps="unknown,ultag,webelement,mobileuielement"
+			capname="ultag"
+			id="f91d9dab-a717-4828-81d2-8b98264a34e8"
+			name="AcceptCookies"
+			refimgid="0736bc3a-41b0-4784-ac13-b6b6b7fe6167"
+			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel>'Cloudy 66 5.8 Welcome home! Add a Device SSPC UAT E009E AUTO Last run: Yesterday Vertical scroll bar, 1 page Horizontal scroll bar, 1 page SSPC UAT E009E Health Test Run Test Frequency Disable Last test: Mar 22, 2021 OK Mode Auto Manual Timer Last run: Yesterday,']/container[@accessibilitylabel='Product Support Vertical scroll bar, 6 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 6 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Product Support Vertical scroll bar, 6 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 6 pages Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Vertical scroll bar, 6 pages Horizontal scroll bar, 1 page']/dom[@caption='Sump Controller | Home App Support | Pentair']/body/div[1]/main/section/article/div[2]/ul"
+			robustPath=""
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.pentair.pentairhome']//dom[@caption&gt;'Sump Controller | Home App']//ul
+			</item>
+			<item
+			addcaps="container,ioselement,mobileuielement"
+			capname="container"
+			id="44e11c4b-a640-4ae9-8a76-17f8310df57d"
+			name="AddADevicedevice"
+			refimgid="14748964-26c8-44e0-837d-af9c4d23e922"
+			refpath="/mobileapp[@title='com.pentair.pentairhome']/form/container[1]/container[@caption='']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel>'Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications Flow Edit Profile Pool Info Notifications Contact a Professional']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page Dashboard Devices Schedule Notifications']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Cloudy 18.5 7.5 Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@accessibilitylabel='Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30 Vertical scroll bar, 1 page Horizontal scroll bar, 1 page']/container[@caption='']/container[@accessibilitylabel='Welcome home! You have 9 device alerts  Add a Device Sump controller AUTO Last run: Jun 30']/container[@accessibilitylabel='Welcome home! You have 9 device alerts  Add a Device']/container[@accessibilitylabel='Add a Device']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/mobileapp[@title='com.pentair.pentairhome']//container[@accessibilitylabel='Add a Device']
 			</item>
 			<basepath>
 				/mobileapp[@title='com.pentair.pentairhome']
@@ -1189,6 +1348,7 @@ E78sAQAAAABJRU5ErkJggg==
 			name="NgMdIcon"
 			refimgid="588a7e06-15ee-42f3-bdd9-aae13f132d2e"
 			refpath="/dom[@domain='3.127.177.145:8082']//div[#'nr-dashboard-toolbar']/button/tag[@tagname='ng-md-icon']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='3.127.177.145:8082']//div[#'nr-dashboard-toolbar']/?/?/tag[@tagname='ng-md-icon']
 			</item>
@@ -1199,6 +1359,7 @@ E78sAQAAAABJRU5ErkJggg==
 			name="MdButtonMdInkRippleMdNoStyleNgS"
 			refimgid="b771e62a-8f6d-4645-b2d9-d20847a30809"
 			refpath="/dom[@domain='3.127.177.145:8082']/body/tag[@tagname='md-content']/section/tag[@tagname='md-sidenav']/tag/tag[6]/div/button"
+			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='3.127.177.145:8082']//tag[@tagname='md-list']/tag[6]/div/button
 			</item>
@@ -1209,6 +1370,7 @@ E78sAQAAAABJRU5ErkJggg==
 			name="Text"
 			refimgid="403ce676-4590-4fdd-93c7-734ef7201c72"
 			refpath="/dom[@domain='3.127.177.145:8082']/body/tag[@tagname='md-content']/section/tag[@tagname='md-content']/div[1]/tag/div/div/tag[2]/tag/input[@type='text']"
+			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='3.127.177.145:8082']//input[@type='text']
 			</item>
@@ -1242,12 +1404,13 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		usecache="False">
 			<item
 			addcaps="unknown,webelement,inputtag"
-			capname="divtag"
+			capname="inputtag"
 			id="fccd9930-634b-45bd-9796-1a6b969c6d29"
 			name="GoogleInput"
 			refimgid="75b94808-258a-4ffd-9d85-a023784d582f"
+			robustPath=""
 			searchtimeout="30000ms">
-				/dom[@domain='www.google.com']//form/div[2]/div[1]/div[1]/div/div[2]
+				/dom[@domain='www.google.com']/body//input[@title='Search']
 			</item>
 			<item
 			addcaps="unknown,webelement,inputtag"
@@ -1255,6 +1418,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="6bee8828-b0ec-47a0-bc79-9d7dd6faba79"
 			name="GoogleSearchButton"
 			refimgid="83abb57b-ccda-4329-ae72-0f3f4d9b257c"
+			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='www.google.com']//input[@name='btnK']
 			</item>
@@ -1264,6 +1428,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="36c41d67-2c1b-4f1f-8727-5b7178245ac1"
 			name="Time"
 			refimgid="f7f78893-806c-4b3b-aebb-f27b89fbb0a7"
+			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='www.google.com']//div[#'rso']//div[@innertext&lt;'am' or @innertext&lt;'pm']
 			</item>
@@ -1273,6 +1438,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="d3d1f492-5f85-4715-8928-6045f4500675"
 			name="Date"
 			refimgid="c004d7c1-9c10-4394-9df7-36d44cb78be2"
+			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='www.google.com']//div[#'rso']//span[@innertext~'^[0-9]{1,}\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \s]\s*[0-9]{2,}$']
 			</item>
@@ -1282,6 +1448,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 			id="716eb87d-5ba0-4934-ab37-a41ee8c6076d"
 			name="day"
 			refimgid="4ac7248b-9aab-46dc-85be-26bf39b572af"
+			robustPath=""
 			searchtimeout="30000ms">
 				/dom[@domain='www.google.com']//div[#'rso']//div[@innertext=' Monday, ' or @innertext=' Tuesday, ' or @innertext=' Wednesday, ' or @innertext=' Thursday, ' or @innertext=' Friday, ' or @innertext=' Saturday, ' or @innertext=' Sunday, ']
 			</item>
@@ -1344,6 +1511,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<var
 		id="0fc1fa44-b84e-4da3-ae5c-308f2eb3cdaf"
 		name="TimeMins">
+			30
 		</var>
 		<var
 		id="4409e7c2-cdf4-45b3-a06b-7e20294e66c0"
@@ -1357,7 +1525,7 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		<var
 		id="adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd"
 		name="WifiPageContainer">
-			Connect YourDevice to WiFi NETWORK satsaheb Password Save Password CONTINUE
+			Connect YourDevice to WiFi NETWORK satsaheb Password CONTINUE
 		</var>
 		<var
 		id="f7ab5b1f-be92-4631-b607-03b2faff3912"
@@ -1373,6 +1541,10 @@ F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
 		id="e38a7db9-e45e-4146-afa5-cf333057007c"
 		name="DateNumber">
 			5
+		</var>
+		<var
+		id="74cad70a-6a94-4a81-8f86-7b206a883b60"
+		name="WiFIContainer">
 		</var>
 	</variables>
 </repository>

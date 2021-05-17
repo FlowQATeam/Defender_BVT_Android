@@ -281,6 +281,11 @@ namespace SSPC_iOS
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 1m.", new RecordItemIndex(31));
             Delay.Duration(60000, false);
             
+            Report.Screenshot(ReportLevel.Info, "User", "", repo.ComPentairPentairhome.UIWindow.ScreenShot, false, new RecordItemIndex(32));
+            
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(33));
+            Delay.Duration(2000, false);
+            
         }
 
 #region Image Feature Data

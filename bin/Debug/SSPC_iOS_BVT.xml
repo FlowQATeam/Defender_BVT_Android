@@ -753,11 +753,6 @@
             Gets or sets the value of variable Wifissid.
             </summary>
         </member>
-        <member name="P:SSPC_iOS.Provisioning.WifiPageContainer">
-            <summary>
-            Gets or sets the value of variable WifiPageContainer.
-            </summary>
-        </member>
         <member name="P:SSPC_iOS.Provisioning.Nickname">
             <summary>
             Gets or sets the value of variable Nickname.
@@ -1308,6 +1303,11 @@
         <member name="P:SSPC_iOS.SSPC_iOS_BVTRepository.DateNumber">
             <summary>
             Gets or sets the value of variable DateNumber.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_BVTRepository.WiFIContainer">
+            <summary>
+            Gets or sets the value of variable WiFIContainer.
             </summary>
         </member>
         <member name="P:SSPC_iOS.SSPC_iOS_BVTRepository.SelfInfo">
@@ -2325,6 +2325,36 @@
             The RESETButton item info.
             </summary>
         </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder.DeviceSupport">
+            <summary>
+            The DeviceSupport item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder.DeviceSupportInfo">
+            <summary>
+            The DeviceSupport item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder.AcceptCookies">
+            <summary>
+            The AcceptCookies item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder.AcceptCookiesInfo">
+            <summary>
+            The AcceptCookies item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder.AddADevicedevice">
+            <summary>
+            The AddADevicedevice item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder.AddADevicedeviceInfo">
+            <summary>
+            The AddADevicedevice item info.
+            </summary>
+        </member>
         <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.ComPentairPentairhomeAppFolder.UIWindow">
             <summary>
             The UIWindow folder.
@@ -2468,6 +2498,16 @@
         <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.UIWindowFolder.WifiContinueInfo">
             <summary>
             The WifiContinue item info.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.UIWindowFolder.ChangeWiFiContinue">
+            <summary>
+            The ChangeWiFiContinue item.
+            </summary>
+        </member>
+        <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.UIWindowFolder.ChangeWiFiContinueInfo">
+            <summary>
+            The ChangeWiFiContinue item info.
             </summary>
         </member>
         <member name="P:SSPC_iOS.SSPC_iOS_BVTRepositoryFolders.UIWindowFolder.NicknameInput">
@@ -2908,6 +2948,24 @@
             Gets or sets the value of variable TimerMins.
             </summary>
         </member>
+        <member name="T:SSPC_iOS.UserCodeModule1">
+            <summary>
+            Description of UserCodeModule1.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.UserCodeModule1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SSPC_iOS.UserCodeModule1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
         <member name="T:SSPC_iOS.wifi">
              <summary>
             The wifi recording.
@@ -2965,11 +3023,6 @@
         <member name="P:SSPC_iOS.wifi.Wifissid">
             <summary>
             Gets or sets the value of variable Wifissid.
-            </summary>
-        </member>
-        <member name="P:SSPC_iOS.wifi.WifiPageContainer">
-            <summary>
-            Gets or sets the value of variable WifiPageContainer.
             </summary>
         </member>
         <member name="T:__RxMain.__RxProgram">

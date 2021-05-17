@@ -95,12 +95,6 @@
 				</databinding>
 			</testmodule>
 			<testmodule
-			id="2809a876-2b6e-4d3f-a6ed-4c27eb33c8e2"
-			name="tesy"
-			ref="1698f784-acef-40a6-b1a5-3460ad747737"
-			type="Recording">
-			</testmodule>
-			<testmodule
 			id="2b5b1fa8-ad92-493b-951a-3d81e5ce4cf1"
 			name="productsupport"
 			ref="f9f8fb1e-b31a-46f6-b2e0-ed5e71f1aa3b"
@@ -282,12 +276,6 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="New WifiInputContainer"
-					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
-					variableid="adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd"
-					variablename="WifiPageContainer">
-					</var>
-					<var
 					dataname="DeviceID"
 					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
 					variableid="84902cad-a599-4713-a3d3-2ea660932c8b"
@@ -344,6 +332,14 @@
 					variablename="WifiPageContainer">
 					</var>
 				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="New WifiInputContainer"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd"
+					variablename="WifiPageContainer">
+					</var>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<testcase
 			datasource="QA_Cred"
@@ -525,12 +521,6 @@
 			type="Recording">
 				<databinding>
 					<var
-					dataname="WifiInputContainer"
-					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
-					variableid="adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd"
-					variablename="WifiPageContainer">
-					</var>
-					<var
 					dataname="WiFi Password"
 					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
 					variableid="2b1b279d-7d81-4aa2-8308-8e098b092f10"
@@ -587,6 +577,14 @@
 					variablename="DeviceID">
 					</var>
 				</missingdatabinding>
+				<missingdatavariablesbinding>
+					<var
+					dataname="WifiInputContainer"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="adf90af2-bf0e-4c95-8ac2-b32f2ba7e8cd"
+					variablename="WifiPageContainer">
+					</var>
+				</missingdatavariablesbinding>
 			</testmodule>
 			<testmodule
 			id="9fa32f91-37c4-4544-ab5c-13ecc7a86dfe"
@@ -599,6 +597,12 @@
 					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
 					variableid="1d09c6b5-db7a-4ed0-a13c-ee2add5d3d37"
 					variablename="PdfName">
+					</var>
+					<var
+					dataname="FileLoc"
+					datasourceid="d3f249e8-954d-4fdc-aa94-85df7296eb05"
+					variableid="536f8a69-f246-4f2b-ae9e-1f62babb2ba9"
+					variablename="PdfDirectoryPath">
 					</var>
 				</databinding>
 			</testmodule>
@@ -902,10 +906,6 @@
 						id="fdca326e-683f-416a-8dcb-866248d6a081"
 						name="ScheduleHealthTestDaily">
 						</testmodule>
-						<testmodule
-						id="2809a876-2b6e-4d3f-a6ed-4c27eb33c8e2"
-						name="tesy">
-						</testmodule>
 					</testcase>
 					<testcase
 					id="3dc61452-2c14-4e28-9b4b-b02a99f669e9"
@@ -1106,6 +1106,9 @@
 				</column>
 				<column>
 					pdfname
+				</column>
+				<column>
+					FileLoc
 				</column>
 			</lastknowncolumns>
 			<maskedcolumns>

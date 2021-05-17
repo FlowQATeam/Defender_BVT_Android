@@ -137,7 +137,7 @@ namespace SSPC_iOS
             set { _TimeHrs = value; }
         }
 
-        string _TimeMins = "";
+        string _TimeMins = "30";
 
         /// <summary>
         /// Gets or sets the value of variable TimeMins.
@@ -173,7 +173,7 @@ namespace SSPC_iOS
             set { _NickNameClick = value; }
         }
 
-        string _WifiPageContainer = "Connect YourDevice to WiFi NETWORK satsaheb Password Save Password CONTINUE";
+        string _WifiPageContainer = "Connect YourDevice to WiFi NETWORK satsaheb Password CONTINUE";
 
         /// <summary>
         /// Gets or sets the value of variable WifiPageContainer.
@@ -219,6 +219,18 @@ namespace SSPC_iOS
         {
             get { return _DateNumber; }
             set { _DateNumber = value; }
+        }
+
+        string _WiFIContainer = "";
+
+        /// <summary>
+        /// Gets or sets the value of variable WiFIContainer.
+        /// </summary>
+        [TestVariable("74cad70a-6a94-4a81-8f86-7b206a883b60")]
+        public string WiFIContainer
+        {
+            get { return _WiFIContainer; }
+            set { _WiFIContainer = value; }
         }
 
 #endregion
@@ -379,6 +391,9 @@ namespace SSPC_iOS
             RepoItemInfo _factory_reset_infoInfo;
             RepoItemInfo _resetlinkInfo;
             RepoItemInfo _resetbuttonInfo;
+            RepoItemInfo _devicesupportInfo;
+            RepoItemInfo _acceptcookiesInfo;
+            RepoItemInfo _addadevicedeviceInfo;
 
             /// <summary>
             /// Creates a new ComPentairPentairhome  folder.
@@ -393,103 +408,106 @@ namespace SSPC_iOS
                 _ampm = new SSPC_iOS_BVTRepositoryFolders.AMPMFolder(this);
                 _timeminutes = new SSPC_iOS_BVTRepositoryFolders.TimeMinutesFolder(this);
                 _timerhours = new SSPC_iOS_BVTRepositoryFolders.TimerHoursFolder(this);
-                _skipInfo = new RepoItemInfo(this, "Skip", "form//container[@accessibilityid='AppWalkthroughNextButton']/container[@accessibilitylabel='Skip']", 30000, null, "8d63248f-3f50-418d-96dd-1c443ea3d79c");
-                _firstscreensipeInfo = new RepoItemInfo(this, "firstscreensipe", "form//container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']/container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']", 30000, null, "4b107309-1dd6-40f3-8506-42a7d972701c");
-                _secondscreensipeInfo = new RepoItemInfo(this, "SecondScreenSipe", "form//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']", 30000, null, "ca1a9a33-105f-43e3-aa2e-46b26e689aeb");
-                _thirdscreenswipeInfo = new RepoItemInfo(this, "ThirdScreenSwipe", "form//container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']/container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']", 30000, null, "53846f8e-2948-45ba-9142-84cb0fc04610");
-                _lastscreen_next_buttonInfo = new RepoItemInfo(this, "LastScreen_Next_button", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/next@2x.png']", 30000, null, "a160189d-551d-4c0f-a37b-858ef718fc53");
-                _homeiconInfo = new RepoItemInfo(this, "HomeIcon", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/dashboardOutline@2x.png']", 30000, null, "0e2f5221-0653-4cb4-a215-2241276c2b54");
-                _changewifinetworkInfo = new RepoItemInfo(this, "ChangeWiFiNetwork", "form//?/container[@accessibilitylabel='Change WiFi Network']/container[@accessibilitylabel='Change WiFi Network']", 30000, null, "a90ab021-1630-42b5-9ec5-ae0e6e5e37b3");
-                _email_inputInfo = new RepoItemInfo(this, "Email_input", "form//text[@accessibilityid='LoginEmailTextField']", 30000, null, "c130c937-30e1-4ae5-ad3f-94702942e02d");
-                _passordinputInfo = new RepoItemInfo(this, "PassordInput", ".//text[@accessibilityid='SignInPasswordField']", 30000, null, "11b8d397-25d4-4392-9419-32efd6e7a8be");
-                _getstartedloginInfo = new RepoItemInfo(this, "GetStartedLogin", ".//container[@accessibilityid='LoginEmailNextButton']", 30000, null, "8e44d3c0-98e2-4c97-b05a-163b289503d2");
-                _viewpassordInfo = new RepoItemInfo(this, "ViewPassord", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/hideEye.png']", 30000, null, "6470d2c6-179a-4f24-ae1e-790f2ae12d7c");
-                _loginInfo = new RepoItemInfo(this, "LOGIN", ".//container[@accessibilityid='SignInSignInButton']/?/container[@accessibilitylabel='Sign In']", 30000, null, "32226905-c9fe-46e8-bce2-869e48fd700d");
-                _runtestbuttonInfo = new RepoItemInfo(this, "RunTestButton", "form//container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']", 30000, null, "7033cf0f-f499-4413-a4e8-08725378b2fa");
-                _cancelemptywaterInfo = new RepoItemInfo(this, "CancelEmptyWater", "form//container[@accessibilitylabel='CANCEL']", 30000, null, "ab14a731-663a-40a3-875f-db549bce0fc6");
-                _sspctileclickInfo = new RepoItemInfo(this, "SSPCtileClick", "form//container[@accessibilitylabel=$Nickname]", 30000, null, "758fc078-344c-4b30-ad4a-fe168ab18e8d");
-                _wifiupdateokInfo = new RepoItemInfo(this, "WiFiUpdateOK", ".//container[@accessibilitylabel='OK']", 30000, null, "ac681454-2db1-4a9c-a23b-d5d9288f1d0c");
-                _emptywaterInfo = new RepoItemInfo(this, "EMPTYWATER", ".//form//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='EMPTY WATER']", 30000, null, "59aae09b-80da-4122-96c9-89c2aeba4127");
-                _setupbluetoothscerollupInfo = new RepoItemInfo(this, "setupBluetoothScerollUp", ".//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[1]", 30000, null, "6c5bbb07-a55d-4a05-b8e2-d6174001970e");
-                _manualInfo = new RepoItemInfo(this, "Manual", ".//container[@accessibilitylabel='Manual']", 30000, null, "e15dfd23-4784-414f-b8b3-f67fe2604fdc");
-                _automodeInfo = new RepoItemInfo(this, "AutoMode", ".//container[@accessibilitylabel='Auto']", 30000, null, "03645d76-99e7-4cbf-a722-8ab2331c1ee5");
-                _schedulehealthtestclickInfo = new RepoItemInfo(this, "ScheduleHealthTestClick", ".//container[@accessibilitylabel='Monthly']/container[2]/container[@caption='']", 30000, null, "e3a9451c-c388-491f-b063-273b19cd079f");
-                _schedulehealthtestdropdownInfo = new RepoItemInfo(this, "ScheduleHealthTestDropDown", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']", 30000, null, "189bacf9-0d5e-40fa-9d44-81a406083e69");
-                _manualscrollupInfo = new RepoItemInfo(this, "ManualScrollUp", ".//container[@accessibilitylabel~'^Health']", 30000, null, "a7109814-1d91-406f-8343-71f017d6fbd0");
-                _schedulehtdailyselectInfo = new RepoItemInfo(this, "ScheduleHTDailySelect", ".//container[@accessibilitylabel='Daily']", 30000, null, "7014a205-1671-4535-b47b-8432337d41f2");
-                _frequencydailyInfo = new RepoItemInfo(this, "FrequencyDaily", ".//container[@accessibilitylabel='Daily']/container[@accessibilitylabel='Daily']", 0, null, "597d9c86-cd2c-471c-987b-36aaf361ed97");
-                _frequencyweeklyInfo = new RepoItemInfo(this, "FrequencyWeekly", ".//container[@accessibilitylabel='Weekly']/container[@accessibilitylabel='Weekly']", 0, null, "eac003a3-a9cf-45c0-a9c8-403af7796040");
-                _frequencyselectionInfo = new RepoItemInfo(this, "FrequencySelection", ".//container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']/container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']", 0, null, "f049c4d8-db46-48ef-99b3-3de9ff7b50d3");
-                _frequencydisableInfo = new RepoItemInfo(this, "FrequencyDisable", ".//container[@accessibilitylabel='Disable']/container[@accessibilitylabel='Disable']", 0, null, "5a3c5b3e-a088-4bfc-8e21-713028f4cd96");
-                _schedulehtweeklyselecInfo = new RepoItemInfo(this, "ScheduleHTWeeklySelec", ".//container[@accessibilitylabel='Weekly']", 30000, null, "b6060a8a-0a1c-4f52-b064-3fde61f57e6e");
-                _schedulehtmonthlyselectInfo = new RepoItemInfo(this, "ScheduleHTmonthlySelect", ".//container[@accessibilitylabel='Monthly']", 30000, null, "08f7964c-cc18-488b-8f1e-c8ed6fb856d2");
-                _schedulehtdisableselectInfo = new RepoItemInfo(this, "ScheduleHTDisableSelect", ".//container[@accessibilitylabel='Disable']", 30000, null, "45416e30-d38e-429c-8306-e18beca1470f");
-                _manual_frequencyInfo = new RepoItemInfo(this, "Manual_frequency", ".//container[@accessibilitylabel='Frequency (min) Will run this often']/container[2]/container[@caption='']/text", 30000, null, "91d48bfc-55be-4003-a9f9-be9f6424a240");
-                _manula_durationInfo = new RepoItemInfo(this, "Manula_Duration", ".//container[@accessibilitylabel='Duration (sec) For this amount of time']/container[2]/container[@caption='']/text", 30000, null, "c83b0829-0a13-41e1-af17-576343abcebc");
-                _timer_modeInfo = new RepoItemInfo(this, "Timer_Mode", ".//container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[1]", 30000, null, "ad65e02b-9954-45c0-83a6-02be02731ded");
-                _timermodehrsInfo = new RepoItemInfo(this, "TimerModeHrs", ".//text[@accessibilitylabel=$TimerModeHrs]", 30000, null, "9bd35de3-cf06-4710-ab76-01747ae7533c");
-                _timermodeminsInfo = new RepoItemInfo(this, "TimerModeMins", ".//container[@accessibilitylabel='3 2 1 0 Horizontal scroll bar, 1 page 6 5 4 3 Horizontal scroll bar, 1 page 4 3 2 Horizontal scroll bar, 1 page']/iospicker/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel=$TimerModeMins]/text[@accessibilitylabel=$TimerModeMins]", 30000, null, "32246d19-00e7-415d-8b6c-9a8b9dec292e");
-                _productoverviewInfo = new RepoItemInfo(this, "ProductOverview", ".//container[@accessibilitylabel='Product Overview']", 30000, null, "cd87c5cb-e3d7-45d4-9ff2-4d2552ab2cf3");
-                _settingsiconInfo = new RepoItemInfo(this, "Settingsicon", ".//container[@accessibilityid='headerRightImage']/container[@caption='']", 30000, null, "ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81");
-                _notificationsInfo = new RepoItemInfo(this, "Notifications", "form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Notifications']", 30000, null, "ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26");
-                _productsupportInfo = new RepoItemInfo(this, "ProductSupport", ".//container[@accessibilitylabel='Product Support']", 30000, null, "b0217722-6d80-4f77-8206-6c154f210880");
-                _contactpentairInfo = new RepoItemInfo(this, "ContactPentair", "form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Contact Pentair']", 30000, null, "7fcbd103-cb91-4865-982d-679d1dd258c6");
-                _allnotificationsInfo = new RepoItemInfo(this, "AllNotifications", "form//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']", 30000, null, "553e9cdf-911e-482b-bc72-880cd2175a08");
-                _pushnotificationsInfo = new RepoItemInfo(this, "PushNotifications", "form//container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']", 30000, null, "279a2efd-5a62-4beb-b501-cf5a20f57e8d");
-                _emailnotificationsInfo = new RepoItemInfo(this, "EmailNotifications", "form//container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']", 30000, null, "cc8353e6-4430-4c5a-8233-aea21ce2447a");
-                _wifiInfo = new RepoItemInfo(this, "WiFi", ".//container[@accessibilitylabel='WiFi']", 30000, null, "71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6");
-                _configurationsInfo = new RepoItemInfo(this, "Configurations", ".//container[@accessibilitylabel='Configurations']", 30000, null, "7028503f-19a0-46b8-a8ae-a7832d172a26");
-                _dryruntoggleInfo = new RepoItemInfo(this, "DryRunToggle", ".//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']", 30000, null, "c5891aba-693c-4ac2-8323-060e2b33a439");
-                _dryruninputInfo = new RepoItemInfo(this, "DryRunInput", ".//container[@accessibilitylabel='Dry Time Delay']/container[1]/container[@caption='']/text", 30000, null, "4767f91e-3131-41e1-9c57-4f63664338d0");
-                _extraruntimeinputInfo = new RepoItemInfo(this, "ExtraRunTimeInput", ".//container[@accessibilitylabel='Extra Runtime 0 sec 15 sec']/container[@accessibilitylabel='Extra Runtime']/container[1]/container[@caption='']/text", 30000, null, "d1b33ff3-f50e-4551-866b-a6fc22322952");
-                _dryrunhelpInfo = new RepoItemInfo(this, "DryRunHelp", ".//container[@accessibilitylabel='Dry Run Limit']/container[@accessibilitylabel='Dry Run Limit']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", 30000, null, "1fa89dd5-bb26-40eb-876c-cf09d1a887b5");
-                _extraruntimehelpInfo = new RepoItemInfo(this, "ExtraRuntimeHelp", ".//container[@accessibilitylabel='Extra Runtime']/?/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", 30000, null, "dde37c4e-ec47-465a-b0e8-777428facd68");
-                _configuratioonsokInfo = new RepoItemInfo(this, "ConfiguratioonsOK", ".//container[@accessibilitylabel='OK']/container[@accessibilitylabel='OK']", 0, null, "12f9c676-f781-4063-843e-3dc70ddff407");
-                _analyticsInfo = new RepoItemInfo(this, "Analytics", ".//container[@accessibilitylabel='Analytics']", 30000, null, "8630d7d1-0e05-467c-9948-274da923385a");
-                _dailyInfo = new RepoItemInfo(this, "Daily", ".//container[@accessibilitylabel='Daily']", 30000, null, "9c430dce-5bca-4490-9337-08d1282252c2");
-                _weeklyInfo = new RepoItemInfo(this, "Weekly", ".//container[@accessibilitylabel='Weekly']", 30000, null, "1cb0ace5-04e3-493b-b405-4b5bd7544d7d");
-                _monthlyInfo = new RepoItemInfo(this, "Monthly", ".//container[@accessibilitylabel='Monthly']", 30000, null, "3d1e2259-453f-4d08-a571-1aeb3604dcfc");
-                _quarterlyanalyticsInfo = new RepoItemInfo(this, "QuarterlyAnalytics", ".//container[@accessibilitylabel='Quarterly']", 30000, null, "07df800c-4430-4a53-b18c-1949a219900a");
-                _removedeviceInfo = new RepoItemInfo(this, "RemoveDevice", ".//container[@accessibilitylabel='Remove Device']", 30000, null, "c56dc28a-6af0-45bc-879e-14d5651e8f83");
-                _removebuttonInfo = new RepoItemInfo(this, "RemoveButton", ".//container[@accessibilitylabel='REMOVE']", 30000, null, "fcb0ff28-6ed9-443b-9765-55110015548f");
-                _removecancelbuttonInfo = new RepoItemInfo(this, "RemoveCancelButton", ".//container[@accessibilitylabel='CANCEL']", 30000, null, "25696fa1-c51b-4557-b218-9ad53c829bc4");
-                _removecrossbuttonInfo = new RepoItemInfo(this, "RemoveCrossButton", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/close2@2x.png']", 30000, null, "6469f44f-2daf-4ced-ba45-7c2258b9f165");
-                _settingsscrollupInfo = new RepoItemInfo(this, "SettingsScrollUp", ".//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page']/?/container[@caption='']", 30000, null, "a6ea21be-ce99-4ffd-a8c9-87cb3b98082f");
-                _nicknameInfo = new RepoItemInfo(this, "nickname", ".//container[@accessibilitylabel=$NickNameClick]/?/?/container[@accessibilitylabel=$NickNameClick]/container[@accessibilitylabel=$Nickname]", 30000, null, "736399e1-07e2-4fe7-bf61-4611e4272249");
-                _nicknameeditInfo = new RepoItemInfo(this, "nicknameedit", ".//container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[2]/container[1]/text", 30000, null, "851640cc-90d5-45ab-9652-ad8cd0605dc7");
-                _current_addressInfo = new RepoItemInfo(this, "current_address", ".//container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']/container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']", 30000, null, "0f2bdb1e-a5d0-43e7-b2ba-5c733f4b4221");
-                _startmanualInfo = new RepoItemInfo(this, "StartManual", ".//container[@accessibilitylabel='Start']", 30000, null, "33b564d6-8e10-4a32-8cdf-1f748c008f47");
-                _deviceupdatedokInfo = new RepoItemInfo(this, "DeviceUpdatedOK", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='OK']", 30000, null, "1c9e833b-9678-4f98-bbc3-66d3652506ee");
-                _scheduledayInfo = new RepoItemInfo(this, "ScheduleDay", ".//container[@accessibilitylabel=$DayInitial]", 30000, null, "3fa958b8-bdad-4a90-be3c-5e205013d65d");
-                _sspcsupportInfo = new RepoItemInfo(this, "SSPCSupport", ".//dom[@domain='www.pentair.com']//main/div[2]/div[1]/section/article/div/div/div/div", 30000, null, "21012d44-7afa-41a8-832f-e09421a35dbd");
-                _pentairsupportInfo = new RepoItemInfo(this, "PentairSupport", ".//dom[@domain='www.pentair.com']//main/div[1]/section/div[2]/div[1]/div/div[2]", 30000, null, "dde58a2c-bb7b-4e2a-88e5-b68052936121");
-                _notificationscontinueInfo = new RepoItemInfo(this, "NotificationsContinue", ".//container[@accessibilitylabel~'^Emails']/container[@accessibilitylabel='CONTINUE']", 30000, null, "a462a1d5-353d-43e9-b205-d51d907eb722");
-                _appfeedbackcloseInfo = new RepoItemInfo(this, "AppFeedbackClose", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/closeIconBlue@2x.png']", 30000, null, "c5211c82-3ee9-46b7-914e-935a920a095b");
-                _textsmsacceptInfo = new RepoItemInfo(this, "TextSMSAccept", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='ACCEPT']", 30000, null, "63896f03-abd2-4362-87a6-8dda4506d2bb");
-                _textsmscancelInfo = new RepoItemInfo(this, "TextSMSCancel", ".//container[@accessibilityid='plainButton']/container[@accessibilitylabel='CANCEL']", 0, null, "a6765dee-b10e-417e-a874-cc4b71cf89d0");
-                _enteremailtextloginInfo = new RepoItemInfo(this, "EnterEmailTextLogin", ".//container[@accessibilitylabel='Enter your email to get started.']", 30000, null, "ecb2253c-99ba-4c5a-b205-efcef67356c8");
-                _loginupperrightInfo = new RepoItemInfo(this, "LoginUpperRight", ".//container[@accessibilitylabel='Password Forgot Password Sign In Vertical scroll bar, 3 pages Horizontal scroll bar, 1 page']", 30000, null, "41ea38b8-cc26-410a-855b-65ccdb806f8d");
-                _changeaddressInfo = new RepoItemInfo(this, "ChangeAddress", ".//container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']", 30000, null, "c2c4e8bd-79ee-4323-9f5d-aa026d00435a");
-                _changeaddressdropdownInfo = new RepoItemInfo(this, "ChangeAddressDropDown", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']", 30000, null, "34208c47-c228-4907-99b0-bf3d02458e24");
-                _addnewaddressInfo = new RepoItemInfo(this, "AddNewAddress", ".//container[@accessibilitylabel='+ ADD A NEW ADDRESS']/container[@accessibilitylabel='+ ADD A NEW ADDRESS']", 30000, null, "964b6a39-536a-4003-8203-285f0fb43032");
-                _emainstorangeInfo = new RepoItemInfo(this, "EMainStOrange", ".//container[@accessibilitylabel='E Main St, Orange']/container[@accessibilitylabel='E Main St, Orange']", 30000, null, "6ed7450f-337a-40ad-8443-24192efcf984");
-                _container22475emunozstqueencreekInfo = new RepoItemInfo(this, "Container22475EMunozStQueenCreek", ".//container[@accessibilitylabel='22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek']", 30000, null, "2ebada34-f35a-4aa3-a2e1-a3c54b47ea7a");
-                _changeaddresscontinueInfo = new RepoItemInfo(this, "ChangeAddressContinue", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "3a6b8fb3-ab97-43f8-85b0-52866db54662");
-                _addressupdatedokInfo = new RepoItemInfo(this, "AddressUpdatedOK", ".//container[@accessibilitylabel='OK']", 30000, null, "9d4c4267-2e6f-4e91-b25c-c7d3d677f745");
-                _werewaitingtohearfromyouInfo = new RepoItemInfo(this, "WEREWAITINGTOHEARFROMYOU", ".//dom[@caption>'Home App | Contact Us | P']//h2[@innertext>'WE''RE WAITING TO HEAR FROM']", 30000, null, "977b4069-8637-4225-afac-3b0e40e320a1");
-                _sumpcontrollersupportInfo = new RepoItemInfo(this, "SumpControllerSupport", ".//dom[@caption>'Sump Controller | Home App']//h2[@innertext='Sump Controller Support']", 30000, null, "b781ecea-ffc9-4a67-9724-78c63c53a6b5");
-                _schedulesaveInfo = new RepoItemInfo(this, "ScheduleSave", ".//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']", 30000, null, "64dcdca3-14ed-4187-9b88-5248a9ceb08d");
-                _histyInfo = new RepoItemInfo(this, "Histy", ".//container[@accessibilityid='chartImage']/container[@accessibilitylabel='History']", 30000, null, "8e9aa462-4f8a-494b-a243-de8701b6cead");
-                _monthlydayclickInfo = new RepoItemInfo(this, "MonthlyDayClick", ".//?/container[@accessibilitylabel=$DateNumber]", 30000, null, "47fcfcfc-9823-48fc-8ea5-d9075e815185");
-                _timerstartInfo = new RepoItemInfo(this, "timerStart", ".//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']", 30000, null, "15298d0e-e24a-4e7e-b422-1ce1fde1f4eb");
-                _monthlytimeclickInfo = new RepoItemInfo(this, "Monthlytimeclick", ".//?/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']", 30000, null, "6e7d497c-d4ce-4e51-a01a-8123becf06f9");
-                _somethingwentwrongcheckpasswordInfo = new RepoItemInfo(this, "Somethingwentwrongcheckpassword", ".//container[@accessibilitylabel='OK']/container[@caption='']", 30000, null, "0ca30444-9133-45cb-b5d3-1d4ab82a7946");
-                _product_supportbackInfo = new RepoItemInfo(this, "Product_SupportBack", ".//container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']", 30000, null, "ffee1561-5e54-45f2-bbff-df998884bc22");
-                _contactpentairbackInfo = new RepoItemInfo(this, "ContactPentairBack", ".//container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']", 30000, null, "c798ee49-c3e1-4324-b591-360be8abc2ec");
-                _sumpcontrollerhomeappsupportpenInfo = new RepoItemInfo(this, "SumpControllerHomeAppSupportPen", ".//dom[@domain='www.pentair.com']", 30000, null, "c6d7e5c7-7532-4a70-9ae0-251508285a9c");
-                _factory_reset_infoInfo = new RepoItemInfo(this, "Factory_Reset_info", ".//container[@accessibilitylabel='Factory Reset']/container[@accessibilitylabel='Factory Reset']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", 30000, null, "a755e82d-7dd0-45b2-bc9a-b958582e8676");
-                _resetlinkInfo = new RepoItemInfo(this, "Resetlink", ".//container[@accessibilitylabel='Reset']/container[@accessibilitylabel='Reset']", 30000, null, "f7d012fd-2bdd-4689-b37d-e26b029ac7a5");
-                _resetbuttonInfo = new RepoItemInfo(this, "RESETButton", ".//container[@accessibilitylabel='RESET']/container[@accessibilitylabel='RESET']", 30000, null, "7db32416-300f-4a39-9892-6184b661dc0a");
+                _skipInfo = new RepoItemInfo(this, "Skip", "form//container[@accessibilityid='AppWalkthroughNextButton']/container[@accessibilitylabel='Skip']", "", 30000, null, "8d63248f-3f50-418d-96dd-1c443ea3d79c");
+                _firstscreensipeInfo = new RepoItemInfo(this, "firstscreensipe", "form//container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']/container[@accessibilitylabel='Take control of your home’s water Stay smart, connected and protected.']", "", 30000, null, "4b107309-1dd6-40f3-8506-42a7d972701c");
+                _secondscreensipeInfo = new RepoItemInfo(this, "SecondScreenSipe", "form//container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']/container[@accessibilitylabel='Manage systems on the go. Get status information, home or away, 24/7.']", "", 30000, null, "ca1a9a33-105f-43e3-aa2e-46b26e689aeb");
+                _thirdscreenswipeInfo = new RepoItemInfo(this, "ThirdScreenSwipe", "form//container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']/container[@accessibilitylabel='We’ll let you know, what to do, when. Receive alerts sent to your phone-and if you choose-your trusted pros.']", "", 30000, null, "53846f8e-2948-45ba-9142-84cb0fc04610");
+                _lastscreen_next_buttonInfo = new RepoItemInfo(this, "LastScreen_Next_button", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/next@2x.png']", "", 30000, null, "a160189d-551d-4c0f-a37b-858ef718fc53");
+                _homeiconInfo = new RepoItemInfo(this, "HomeIcon", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/dashboardOutline@2x.png']", "", 30000, null, "0e2f5221-0653-4cb4-a215-2241276c2b54");
+                _changewifinetworkInfo = new RepoItemInfo(this, "ChangeWiFiNetwork", "form//?/container[@accessibilitylabel='Change WiFi Network']/container[@accessibilitylabel='Change WiFi Network']", "", 30000, null, "a90ab021-1630-42b5-9ec5-ae0e6e5e37b3");
+                _email_inputInfo = new RepoItemInfo(this, "Email_input", "form//text[@accessibilityid='LoginEmailTextField']", "", 30000, null, "c130c937-30e1-4ae5-ad3f-94702942e02d");
+                _passordinputInfo = new RepoItemInfo(this, "PassordInput", ".//text[@accessibilityid='SignInPasswordField']", "", 30000, null, "11b8d397-25d4-4392-9419-32efd6e7a8be");
+                _getstartedloginInfo = new RepoItemInfo(this, "GetStartedLogin", ".//container[@accessibilityid='LoginEmailNextButton']", "", 30000, null, "8e44d3c0-98e2-4c97-b05a-163b289503d2");
+                _viewpassordInfo = new RepoItemInfo(this, "ViewPassord", "form//container[@accessibilitylabel='assets/src/Common_Feature/Images/hideEye.png']", "", 30000, null, "6470d2c6-179a-4f24-ae1e-790f2ae12d7c");
+                _loginInfo = new RepoItemInfo(this, "LOGIN", ".//container[@accessibilityid='SignInSignInButton']/?/container[@accessibilitylabel='Sign In']", "", 30000, null, "32226905-c9fe-46e8-bce2-869e48fd700d");
+                _runtestbuttonInfo = new RepoItemInfo(this, "RunTestButton", "form//container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']/container[@accessibilitylabel='Run Test']", "", 30000, null, "7033cf0f-f499-4413-a4e8-08725378b2fa");
+                _cancelemptywaterInfo = new RepoItemInfo(this, "CancelEmptyWater", "form//container[@accessibilitylabel='CANCEL']", "", 30000, null, "ab14a731-663a-40a3-875f-db549bce0fc6");
+                _sspctileclickInfo = new RepoItemInfo(this, "SSPCtileClick", "form//container[@accessibilitylabel=$Nickname]", "", 30000, null, "758fc078-344c-4b30-ad4a-fe168ab18e8d");
+                _wifiupdateokInfo = new RepoItemInfo(this, "WiFiUpdateOK", ".//container[@accessibilitylabel='OK']", "", 30000, null, "ac681454-2db1-4a9c-a23b-d5d9288f1d0c");
+                _emptywaterInfo = new RepoItemInfo(this, "EMPTYWATER", ".//form//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='EMPTY WATER']", "", 30000, null, "59aae09b-80da-4122-96c9-89c2aeba4127");
+                _setupbluetoothscerollupInfo = new RepoItemInfo(this, "setupBluetoothScerollUp", ".//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[1]", "", 30000, null, "6c5bbb07-a55d-4a05-b8e2-d6174001970e");
+                _manualInfo = new RepoItemInfo(this, "Manual", ".//container[@accessibilitylabel='Manual']", "", 30000, null, "e15dfd23-4784-414f-b8b3-f67fe2604fdc");
+                _automodeInfo = new RepoItemInfo(this, "AutoMode", ".//container[@accessibilitylabel='Auto']", "", 30000, null, "03645d76-99e7-4cbf-a722-8ab2331c1ee5");
+                _schedulehealthtestclickInfo = new RepoItemInfo(this, "ScheduleHealthTestClick", ".//container[@accessibilitylabel='Monthly']/container[2]/container[@caption='']", "", 30000, null, "e3a9451c-c388-491f-b063-273b19cd079f");
+                _schedulehealthtestdropdownInfo = new RepoItemInfo(this, "ScheduleHealthTestDropDown", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']", "", 30000, null, "189bacf9-0d5e-40fa-9d44-81a406083e69");
+                _manualscrollupInfo = new RepoItemInfo(this, "ManualScrollUp", ".//container[@accessibilitylabel~'^Health']", "", 30000, null, "a7109814-1d91-406f-8343-71f017d6fbd0");
+                _schedulehtdailyselectInfo = new RepoItemInfo(this, "ScheduleHTDailySelect", ".//container[@accessibilitylabel='Daily']", "", 30000, null, "7014a205-1671-4535-b47b-8432337d41f2");
+                _frequencydailyInfo = new RepoItemInfo(this, "FrequencyDaily", ".//container[@accessibilitylabel='Daily']/container[@accessibilitylabel='Daily']", "", 0, null, "597d9c86-cd2c-471c-987b-36aaf361ed97");
+                _frequencyweeklyInfo = new RepoItemInfo(this, "FrequencyWeekly", ".//container[@accessibilitylabel='Weekly']/container[@accessibilitylabel='Weekly']", "", 0, null, "eac003a3-a9cf-45c0-a9c8-403af7796040");
+                _frequencyselectionInfo = new RepoItemInfo(this, "FrequencySelection", ".//container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']/container[@accessibilitylabel~'^(Monthly|Weekly|Daily|Disable)']", "", 0, null, "f049c4d8-db46-48ef-99b3-3de9ff7b50d3");
+                _frequencydisableInfo = new RepoItemInfo(this, "FrequencyDisable", ".//container[@accessibilitylabel='Disable']/container[@accessibilitylabel='Disable']", "", 0, null, "5a3c5b3e-a088-4bfc-8e21-713028f4cd96");
+                _schedulehtweeklyselecInfo = new RepoItemInfo(this, "ScheduleHTWeeklySelec", ".//container[@accessibilitylabel='Weekly']", "", 30000, null, "b6060a8a-0a1c-4f52-b064-3fde61f57e6e");
+                _schedulehtmonthlyselectInfo = new RepoItemInfo(this, "ScheduleHTmonthlySelect", ".//container[@accessibilitylabel='Monthly']", "", 30000, null, "08f7964c-cc18-488b-8f1e-c8ed6fb856d2");
+                _schedulehtdisableselectInfo = new RepoItemInfo(this, "ScheduleHTDisableSelect", ".//container[@accessibilitylabel='Disable']", "", 30000, null, "45416e30-d38e-429c-8306-e18beca1470f");
+                _manual_frequencyInfo = new RepoItemInfo(this, "Manual_frequency", ".//container[@accessibilitylabel='Frequency (min) Will run this often']/container[2]/container[@caption='']/text", "", 30000, null, "91d48bfc-55be-4003-a9f9-be9f6424a240");
+                _manula_durationInfo = new RepoItemInfo(this, "Manula_Duration", ".//container[@accessibilitylabel='Duration (sec) For this amount of time']/container[2]/container[@caption='']/text", "", 30000, null, "c83b0829-0a13-41e1-af17-576343abcebc");
+                _timer_modeInfo = new RepoItemInfo(this, "Timer_Mode", ".//container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[@accessibilitylabel='Timer']/container[1]", "", 30000, null, "ad65e02b-9954-45c0-83a6-02be02731ded");
+                _timermodehrsInfo = new RepoItemInfo(this, "TimerModeHrs", ".//text[@accessibilitylabel=$TimerModeHrs]", "", 30000, null, "9bd35de3-cf06-4710-ab76-01747ae7533c");
+                _timermodeminsInfo = new RepoItemInfo(this, "TimerModeMins", ".//container[@accessibilitylabel='3 2 1 0 Horizontal scroll bar, 1 page 6 5 4 3 Horizontal scroll bar, 1 page 4 3 2 Horizontal scroll bar, 1 page']/iospicker/list[@accessibilitylabel='Component 0']/listitem[@accessibilitylabel=$TimerModeMins]/text[@accessibilitylabel=$TimerModeMins]", "", 30000, null, "32246d19-00e7-415d-8b6c-9a8b9dec292e");
+                _productoverviewInfo = new RepoItemInfo(this, "ProductOverview", ".//container[@accessibilitylabel='Product Overview']", "", 30000, null, "cd87c5cb-e3d7-45d4-9ff2-4d2552ab2cf3");
+                _settingsiconInfo = new RepoItemInfo(this, "Settingsicon", ".//container[@accessibilityid='headerRightImage']/container[@caption='']", "", 30000, null, "ce0ba17f-fe3a-4dff-a5d3-dd53f669ad81");
+                _notificationsInfo = new RepoItemInfo(this, "Notifications", "form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Notifications']", "", 30000, null, "ac8f8d6d-17f8-4f97-8fe6-85b8c43cea26");
+                _productsupportInfo = new RepoItemInfo(this, "ProductSupport", ".//container[@accessibilitylabel='Product Support']", "", 30000, null, "b0217722-6d80-4f77-8206-6c154f210880");
+                _contactpentairInfo = new RepoItemInfo(this, "ContactPentair", "form//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device']/?/?/?/?/?/?/container[@accessibilitylabel='Contact Pentair']", "", 30000, null, "7fcbd103-cb91-4865-982d-679d1dd258c6");
+                _allnotificationsInfo = new RepoItemInfo(this, "AllNotifications", "form//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']", "", 30000, null, "553e9cdf-911e-482b-bc72-880cd2175a08");
+                _pushnotificationsInfo = new RepoItemInfo(this, "PushNotifications", "form//container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[@accessibilitylabel='Push Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']", "", 30000, null, "279a2efd-5a62-4beb-b501-cf5a20f57e8d");
+                _emailnotificationsInfo = new RepoItemInfo(this, "EmailNotifications", "form//container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[@accessibilitylabel='Email Notifications']/container[1]/container[@accessibilityid='toggle']/container[@caption='']", "", 30000, null, "cc8353e6-4430-4c5a-8233-aea21ce2447a");
+                _wifiInfo = new RepoItemInfo(this, "WiFi", ".//container[@accessibilitylabel='WiFi']", "", 30000, null, "71ffe9a2-99f9-4a71-8e3b-8c93f62c98e6");
+                _configurationsInfo = new RepoItemInfo(this, "Configurations", ".//container[@accessibilitylabel='Configurations']", "", 30000, null, "7028503f-19a0-46b8-a8ae-a7832d172a26");
+                _dryruntoggleInfo = new RepoItemInfo(this, "DryRunToggle", ".//container[@accessibilityid='toggle']/container[@caption='']/container[1]/container[@caption='']", "", 30000, null, "c5891aba-693c-4ac2-8323-060e2b33a439");
+                _dryruninputInfo = new RepoItemInfo(this, "DryRunInput", ".//container[@accessibilitylabel='Dry Time Delay']/container[1]/container[@caption='']/text", "", 30000, null, "4767f91e-3131-41e1-9c57-4f63664338d0");
+                _extraruntimeinputInfo = new RepoItemInfo(this, "ExtraRunTimeInput", ".//container[@accessibilitylabel='Extra Runtime 0 sec 15 sec']/container[@accessibilitylabel='Extra Runtime']/container[1]/container[@caption='']/text", "", 30000, null, "d1b33ff3-f50e-4551-866b-a6fc22322952");
+                _dryrunhelpInfo = new RepoItemInfo(this, "DryRunHelp", ".//container[@accessibilitylabel='Dry Run Limit']/container[@accessibilitylabel='Dry Run Limit']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", "", 30000, null, "1fa89dd5-bb26-40eb-876c-cf09d1a887b5");
+                _extraruntimehelpInfo = new RepoItemInfo(this, "ExtraRuntimeHelp", ".//container[@accessibilitylabel='Extra Runtime']/?/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", "", 30000, null, "dde37c4e-ec47-465a-b0e8-777428facd68");
+                _configuratioonsokInfo = new RepoItemInfo(this, "ConfiguratioonsOK", ".//container[@accessibilitylabel='OK']/container[@accessibilitylabel='OK']", "", 0, null, "12f9c676-f781-4063-843e-3dc70ddff407");
+                _analyticsInfo = new RepoItemInfo(this, "Analytics", ".//container[@accessibilitylabel='Analytics']", "", 30000, null, "8630d7d1-0e05-467c-9948-274da923385a");
+                _dailyInfo = new RepoItemInfo(this, "Daily", ".//container[@accessibilitylabel='Daily']", "", 30000, null, "9c430dce-5bca-4490-9337-08d1282252c2");
+                _weeklyInfo = new RepoItemInfo(this, "Weekly", ".//container[@accessibilitylabel='Weekly']", "", 30000, null, "1cb0ace5-04e3-493b-b405-4b5bd7544d7d");
+                _monthlyInfo = new RepoItemInfo(this, "Monthly", ".//container[@accessibilitylabel='Monthly']", "", 30000, null, "3d1e2259-453f-4d08-a571-1aeb3604dcfc");
+                _quarterlyanalyticsInfo = new RepoItemInfo(this, "QuarterlyAnalytics", ".//container[@accessibilitylabel='Quarterly']", "", 30000, null, "07df800c-4430-4a53-b18c-1949a219900a");
+                _removedeviceInfo = new RepoItemInfo(this, "RemoveDevice", ".//container[@accessibilitylabel='Remove Device']", "", 30000, null, "c56dc28a-6af0-45bc-879e-14d5651e8f83");
+                _removebuttonInfo = new RepoItemInfo(this, "RemoveButton", ".//container[@accessibilitylabel='REMOVE']", "", 30000, null, "fcb0ff28-6ed9-443b-9765-55110015548f");
+                _removecancelbuttonInfo = new RepoItemInfo(this, "RemoveCancelButton", ".//container[@accessibilitylabel='CANCEL']", "", 30000, null, "25696fa1-c51b-4557-b218-9ad53c829bc4");
+                _removecrossbuttonInfo = new RepoItemInfo(this, "RemoveCrossButton", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/close2@2x.png']", "", 30000, null, "6469f44f-2daf-4ced-ba45-7c2258b9f165");
+                _settingsscrollupInfo = new RepoItemInfo(this, "SettingsScrollUp", ".//container[@accessibilitylabel='Product Overview Notifications Product Support Contact Pentair WiFi Configurations Analytics Remove Device Vertical scroll bar, 2 pages Horizontal scroll bar, 1 page']/?/container[@caption='']", "", 30000, null, "a6ea21be-ce99-4ffd-a8c9-87cb3b98082f");
+                _nicknameInfo = new RepoItemInfo(this, "nickname", ".//container[@accessibilitylabel=$NickNameClick]/?/?/container[@accessibilitylabel=$NickNameClick]/container[@accessibilitylabel=$Nickname]", "", 30000, null, "736399e1-07e2-4fe7-bf61-4611e4272249");
+                _nicknameeditInfo = new RepoItemInfo(this, "nicknameedit", ".//container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[@accessibilitylabel='Nickname']/container[2]/container[1]/text", "", 30000, null, "851640cc-90d5-45ab-9652-ad8cd0605dc7");
+                _current_addressInfo = new RepoItemInfo(this, "current_address", ".//container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']/container[@accessibilitylabel='19828 Via Kalban, Santa Clarita']", "", 30000, null, "0f2bdb1e-a5d0-43e7-b2ba-5c733f4b4221");
+                _startmanualInfo = new RepoItemInfo(this, "StartManual", ".//container[@accessibilitylabel='Start']", "", 30000, null, "33b564d6-8e10-4a32-8cdf-1f748c008f47");
+                _deviceupdatedokInfo = new RepoItemInfo(this, "DeviceUpdatedOK", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='OK']", "", 30000, null, "1c9e833b-9678-4f98-bbc3-66d3652506ee");
+                _scheduledayInfo = new RepoItemInfo(this, "ScheduleDay", ".//container[@accessibilitylabel=$DayInitial]", "", 30000, null, "3fa958b8-bdad-4a90-be3c-5e205013d65d");
+                _sspcsupportInfo = new RepoItemInfo(this, "SSPCSupport", ".//dom[@domain='www.pentair.com']//main/div[2]/div[1]/section/article/div/div/div/div", "", 30000, null, "21012d44-7afa-41a8-832f-e09421a35dbd");
+                _pentairsupportInfo = new RepoItemInfo(this, "PentairSupport", ".//dom[@domain='www.pentair.com']//main/div[1]/section/div[2]/div[1]/div/div[2]", "", 30000, null, "dde58a2c-bb7b-4e2a-88e5-b68052936121");
+                _notificationscontinueInfo = new RepoItemInfo(this, "NotificationsContinue", ".//container[@accessibilitylabel~'^Emails']/container[@accessibilitylabel='CONTINUE']", "", 30000, null, "a462a1d5-353d-43e9-b205-d51d907eb722");
+                _appfeedbackcloseInfo = new RepoItemInfo(this, "AppFeedbackClose", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/closeIconBlue@2x.png']", "", 30000, null, "c5211c82-3ee9-46b7-914e-935a920a095b");
+                _textsmsacceptInfo = new RepoItemInfo(this, "TextSMSAccept", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='ACCEPT']", "", 30000, null, "63896f03-abd2-4362-87a6-8dda4506d2bb");
+                _textsmscancelInfo = new RepoItemInfo(this, "TextSMSCancel", ".//container[@accessibilityid='plainButton']/container[@accessibilitylabel='CANCEL']", "", 0, null, "a6765dee-b10e-417e-a874-cc4b71cf89d0");
+                _enteremailtextloginInfo = new RepoItemInfo(this, "EnterEmailTextLogin", ".//container[@accessibilitylabel='Enter your email to get started.']", "", 30000, null, "ecb2253c-99ba-4c5a-b205-efcef67356c8");
+                _loginupperrightInfo = new RepoItemInfo(this, "LoginUpperRight", ".//container[@accessibilitylabel='Password Forgot Password Sign In Vertical scroll bar, 3 pages Horizontal scroll bar, 1 page']", "", 30000, null, "41ea38b8-cc26-410a-855b-65ccdb806f8d");
+                _changeaddressInfo = new RepoItemInfo(this, "ChangeAddress", ".//container[@accessibilitylabel='Address']/container[@accessibilitylabel='Address']", "", 30000, null, "c2c4e8bd-79ee-4323-9f5d-aa026d00435a");
+                _changeaddressdropdownInfo = new RepoItemInfo(this, "ChangeAddressDropDown", ".//container[@accessibilitylabel='assets/src/Common_Feature/Images/arrowDown@2x.png']", "", 30000, null, "34208c47-c228-4907-99b0-bf3d02458e24");
+                _addnewaddressInfo = new RepoItemInfo(this, "AddNewAddress", ".//container[@accessibilitylabel='+ ADD A NEW ADDRESS']/container[@accessibilitylabel='+ ADD A NEW ADDRESS']", "", 30000, null, "964b6a39-536a-4003-8203-285f0fb43032");
+                _emainstorangeInfo = new RepoItemInfo(this, "EMainStOrange", ".//container[@accessibilitylabel='E Main St, Orange']/container[@accessibilitylabel='E Main St, Orange']", "", 30000, null, "6ed7450f-337a-40ad-8443-24192efcf984");
+                _container22475emunozstqueencreekInfo = new RepoItemInfo(this, "Container22475EMunozStQueenCreek", ".//container[@accessibilitylabel='22475 E Munoz St, Queen Creek']/container[@accessibilitylabel='22475 E Munoz St, Queen Creek']", "", 30000, null, "2ebada34-f35a-4aa3-a2e1-a3c54b47ea7a");
+                _changeaddresscontinueInfo = new RepoItemInfo(this, "ChangeAddressContinue", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", "", 30000, null, "3a6b8fb3-ab97-43f8-85b0-52866db54662");
+                _addressupdatedokInfo = new RepoItemInfo(this, "AddressUpdatedOK", ".//container[@accessibilitylabel='OK']", "", 30000, null, "9d4c4267-2e6f-4e91-b25c-c7d3d677f745");
+                _werewaitingtohearfromyouInfo = new RepoItemInfo(this, "WEREWAITINGTOHEARFROMYOU", ".//dom[@caption>'Home App | Contact Us | P']//h2[@innertext>'WE''RE WAITING TO HEAR FROM']", "", 30000, null, "977b4069-8637-4225-afac-3b0e40e320a1");
+                _sumpcontrollersupportInfo = new RepoItemInfo(this, "SumpControllerSupport", ".//dom[@caption>'Sump Controller | Home App']//h2[@innertext='Sump Controller Support']", "", 30000, null, "b781ecea-ffc9-4a67-9724-78c63c53a6b5");
+                _schedulesaveInfo = new RepoItemInfo(this, "ScheduleSave", ".//container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']/container[@accessibilitylabel='Save']", "", 30000, null, "64dcdca3-14ed-4187-9b88-5248a9ceb08d");
+                _histyInfo = new RepoItemInfo(this, "Histy", ".//container[@accessibilityid='chartImage']/container[@accessibilitylabel='History']", "", 30000, null, "8e9aa462-4f8a-494b-a243-de8701b6cead");
+                _monthlydayclickInfo = new RepoItemInfo(this, "MonthlyDayClick", ".//?/container[@accessibilitylabel=$DateNumber]", "", 30000, null, "47fcfcfc-9823-48fc-8ea5-d9075e815185");
+                _timerstartInfo = new RepoItemInfo(this, "timerStart", ".//container[@accessibilityid='saveButton']/container[@accessibilitylabel='START']", "", 30000, null, "15298d0e-e24a-4e7e-b422-1ce1fde1f4eb");
+                _monthlytimeclickInfo = new RepoItemInfo(this, "Monthlytimeclick", ".//?/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']/container[@accessibilitylabel~'^((1[0-2]|0?[1-9]):([0-5][0-9]) ?([AaPp][Mm]))']", "", 30000, null, "6e7d497c-d4ce-4e51-a01a-8123becf06f9");
+                _somethingwentwrongcheckpasswordInfo = new RepoItemInfo(this, "Somethingwentwrongcheckpassword", ".//container[@accessibilitylabel='OK']/container[@caption='']", "", 30000, null, "0ca30444-9133-45cb-b5d3-1d4ab82a7946");
+                _product_supportbackInfo = new RepoItemInfo(this, "Product_SupportBack", ".//container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[@accessibilitylabel='Product Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']", "", 30000, null, "ffee1561-5e54-45f2-bbff-df998884bc22");
+                _contactpentairbackInfo = new RepoItemInfo(this, "ContactPentairBack", ".//container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[@accessibilitylabel='Pentair Support']/container[1]/container[@caption='']/container[@caption='']/container[@caption='']", "", 30000, null, "c798ee49-c3e1-4324-b591-360be8abc2ec");
+                _sumpcontrollerhomeappsupportpenInfo = new RepoItemInfo(this, "SumpControllerHomeAppSupportPen", ".//dom[@domain='www.pentair.com']", "", 30000, null, "c6d7e5c7-7532-4a70-9ae0-251508285a9c");
+                _factory_reset_infoInfo = new RepoItemInfo(this, "Factory_Reset_info", ".//container[@accessibilitylabel='Factory Reset']/container[@accessibilitylabel='Factory Reset']/container[2]/container[@caption='']/container[@accessibilitylabel='assets/src/Common_Feature/Images/help@2x.png']", "", 30000, null, "a755e82d-7dd0-45b2-bc9a-b958582e8676");
+                _resetlinkInfo = new RepoItemInfo(this, "Resetlink", ".//container[@accessibilitylabel='Reset']/container[@accessibilitylabel='Reset']", "", 30000, null, "f7d012fd-2bdd-4689-b37d-e26b029ac7a5");
+                _resetbuttonInfo = new RepoItemInfo(this, "RESETButton", ".//container[@accessibilitylabel='RESET']/container[@accessibilitylabel='RESET']", "", 30000, null, "7db32416-300f-4a39-9892-6184b661dc0a");
+                _devicesupportInfo = new RepoItemInfo(this, "DeviceSupport", ".//container[@accessibilitylabel='Device Support']/container[@accessibilitylabel='Device Support']/container[@accessibilitylabel='Device Support']", "", 30000, null, "54f39d03-facf-43e4-836c-bfea701dac4d");
+                _acceptcookiesInfo = new RepoItemInfo(this, "AcceptCookies", ".//dom[@caption>'Sump Controller | Home App']//ul", "", 30000, null, "f91d9dab-a717-4828-81d2-8b98264a34e8");
+                _addadevicedeviceInfo = new RepoItemInfo(this, "AddADevicedevice", ".//container[@accessibilitylabel='Add a Device']", "", 30000, null, "44e11c4b-a640-4ae9-8a76-17f8310df57d");
             }
 
             /// <summary>
@@ -2845,6 +2863,78 @@ namespace SSPC_iOS
             }
 
             /// <summary>
+            /// The DeviceSupport item.
+            /// </summary>
+            [RepositoryItem("54f39d03-facf-43e4-836c-bfea701dac4d")]
+            public virtual Ranorex.Container DeviceSupport
+            {
+                get
+                {
+                    return _devicesupportInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The DeviceSupport item info.
+            /// </summary>
+            [RepositoryItemInfo("54f39d03-facf-43e4-836c-bfea701dac4d")]
+            public virtual RepoItemInfo DeviceSupportInfo
+            {
+                get
+                {
+                    return _devicesupportInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AcceptCookies item.
+            /// </summary>
+            [RepositoryItem("f91d9dab-a717-4828-81d2-8b98264a34e8")]
+            public virtual Ranorex.UlTag AcceptCookies
+            {
+                get
+                {
+                    return _acceptcookiesInfo.CreateAdapter<Ranorex.UlTag>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AcceptCookies item info.
+            /// </summary>
+            [RepositoryItemInfo("f91d9dab-a717-4828-81d2-8b98264a34e8")]
+            public virtual RepoItemInfo AcceptCookiesInfo
+            {
+                get
+                {
+                    return _acceptcookiesInfo;
+                }
+            }
+
+            /// <summary>
+            /// The AddADevicedevice item.
+            /// </summary>
+            [RepositoryItem("44e11c4b-a640-4ae9-8a76-17f8310df57d")]
+            public virtual Ranorex.Container AddADevicedevice
+            {
+                get
+                {
+                    return _addadevicedeviceInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The AddADevicedevice item info.
+            /// </summary>
+            [RepositoryItemInfo("44e11c4b-a640-4ae9-8a76-17f8310df57d")]
+            public virtual RepoItemInfo AddADevicedeviceInfo
+            {
+                get
+                {
+                    return _addadevicedeviceInfo;
+                }
+            }
+
+            /// <summary>
             /// The UIWindow folder.
             /// </summary>
             [RepositoryFolder("fc27c716-d874-44cf-9784-24124e1b375f")]
@@ -2923,6 +3013,7 @@ namespace SSPC_iOS
             RepoItemInfo _wifiselectionInfo;
             RepoItemInfo _wifipasswordinputInfo;
             RepoItemInfo _wificontinueInfo;
+            RepoItemInfo _changewificontinueInfo;
             RepoItemInfo _nicknameinputInfo;
             RepoItemInfo _addresscontinueInfo;
             RepoItemInfo _nicknamesaveInfo;
@@ -2935,20 +3026,21 @@ namespace SSPC_iOS
             public UIWindowFolder(RepoGenBaseFolder parentFolder) :
                     base("UIWindow", "form", parentFolder, 30000, null, false, "fc27c716-d874-44cf-9784-24124e1b375f", "")
             {
-                _continueonprovisiomInfo = new RepoItemInfo(this, "ContinueonProvisiom", "container[@caption='']//container[@accessibilityid='shadowButton']", 30000, null, "3e305d14-7a70-4aed-a1f2-10c869b981c2");
-                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
-                _addadeviceInfo = new RepoItemInfo(this, "AddADevice", "container[@caption='']//?/?/?/container[@accessibilitylabel='Add a Device']", 30000, null, "71073362-717a-4b38-b405-910e4011de39");
-                _bluetoothcontinueInfo = new RepoItemInfo(this, "BluetoothContinue", "container[@caption='']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "fa638f85-db6e-409a-9a5f-622470302660");
-                _deviceselectionInfo = new RepoItemInfo(this, "DeviceSelection", "container[@caption='']//?/?/?/container[@accessibilitylabel=$DeviceID]", 30000, null, "0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56");
-                _connectionestablishedcontinueInfo = new RepoItemInfo(this, "ConnectionEstablishedContinue", "container[@caption='']//container[@accessibilitylabel='Bluetooth® WirelessConnection Established Sump Controller  is now paired to Bluetooth wireless. Stay connected while you''re away by connecting your Sump Controller to your home WiFi network. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']", 30000, null, "2045f3f7-b3dd-40f5-91e1-5989b02d3ec2");
-                _wifiselectionInfo = new RepoItemInfo(this, "WifiSelection", "container[@caption='']//?/?/?/?/container[@accessibilitylabel=$Wifissid]/container[@accessibilitylabel=$Wifissid]", 30000, null, "6d6b9d8e-0812-4ce6-a177-a0a7d5dca1ff");
-                _wifipasswordinputInfo = new RepoItemInfo(this, "WifiPasswordinput", "container[@caption='']//text", 30000, null, "f2e03ff2-6b26-45a2-9198-784fdb16aa00");
-                _wificontinueInfo = new RepoItemInfo(this, "WifiContinue", "container[@caption='']//container[@accessibilitylabel=$WifiPageContainer]/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "9d4c0f9e-5c63-422a-965a-16e1b6eed521");
-                _nicknameinputInfo = new RepoItemInfo(this, "NicknameInput", ".//container[@accessibilitylabel='Nickname']/container[2]/container[1]/text", 30000, null, "6707a9b2-d556-45e3-9d88-a6b0d71e59c0");
-                _addresscontinueInfo = new RepoItemInfo(this, "AddressContinue", ".//container[@caption='']//container[@accessibilitylabel~'^Please']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "4fd1ade9-3909-429a-b779-36154d94d0e5");
-                _nicknamesaveInfo = new RepoItemInfo(this, "NicknameSave", "?/?/?//?/?/container[@accessibilitylabel='SAVE']", 30000, null, "685ee44f-20f8-4db5-9f3e-7779e213245d");
-                _installationcompletecontinueInfo = new RepoItemInfo(this, "InstallationCompleteContinue", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", 30000, null, "5cd27f50-eed2-4a9e-98c5-8620aa443184");
-                _screenshotInfo = new RepoItemInfo(this, "ScreenShot", "", 30000, null, "792081cf-928d-47f8-bc6a-dfc286be7470");
+                _continueonprovisiomInfo = new RepoItemInfo(this, "ContinueonProvisiom", "container[@caption='']//container[@accessibilityid='shadowButton']", "", 30000, null, "3e305d14-7a70-4aed-a1f2-10c869b981c2");
+                _sumpcontrollerInfo = new RepoItemInfo(this, "SumpController", "container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']", "", 30000, null, "78a19a1e-1106-48cf-9d05-5e0d10279e91");
+                _addadeviceInfo = new RepoItemInfo(this, "AddADevice", "container[@caption='']//container[@accessibilitylabel='Set up your first device ']/container[@accessibilitylabel='Set up your first device ']/container[@accessibilitylabel='Set up your first device ']", "", 30000, null, "71073362-717a-4b38-b405-910e4011de39");
+                _bluetoothcontinueInfo = new RepoItemInfo(this, "BluetoothContinue", "container[@caption='']//container[@accessibilitylabel='Set Up Bluetooth®Connection Is your Sump Controller in pairing mode? Pairing mode is indicated by a flashing blue light. If blue light is not flashing, press and hold the mode button for 5 seconds to place the device in pairing mode. Make sure your phone''s Bluetooth is ON. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", "", 30000, null, "fa638f85-db6e-409a-9a5f-622470302660");
+                _deviceselectionInfo = new RepoItemInfo(this, "DeviceSelection", "container[@caption='']//?/?/?/container[@accessibilitylabel=$DeviceID]", "", 30000, null, "0f9f9339-08fd-4cb2-8f06-35c0e9d4ce56");
+                _connectionestablishedcontinueInfo = new RepoItemInfo(this, "ConnectionEstablishedContinue", "container[@caption='']//container[@accessibilitylabel='Bluetooth® WirelessConnection Established Sump Controller  is now paired to Bluetooth wireless. Stay connected while you''re away by connecting your Sump Controller to your home WiFi network. CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']", "", 30000, null, "2045f3f7-b3dd-40f5-91e1-5989b02d3ec2");
+                _wifiselectionInfo = new RepoItemInfo(this, "WifiSelection", "container[@caption='']//?/?/?/?/container[@accessibilitylabel=$Wifissid]/container[@accessibilitylabel=$Wifissid]", "", 30000, null, "6d6b9d8e-0812-4ce6-a177-a0a7d5dca1ff");
+                _wifipasswordinputInfo = new RepoItemInfo(this, "WifiPasswordinput", "container[@caption='']//text", "", 30000, null, "f2e03ff2-6b26-45a2-9198-784fdb16aa00");
+                _wificontinueInfo = new RepoItemInfo(this, "WifiContinue", "container[@caption='']//container[@accessibilitylabel='Connect YourDevice to WiFi NETWORK satsaheb Password CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", "", 30000, null, "9d4c0f9e-5c63-422a-965a-16e1b6eed521");
+                _changewificontinueInfo = new RepoItemInfo(this, "ChangeWiFiContinue", "container[@caption='']//container[@accessibilitylabel='Connect YourDevice to WiFi NETWORK Galaxy S20+f314 Password CONTINUE']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", "", 30000, null, "8d1fd6b0-cca3-4ae7-8044-2a2f8db51f94");
+                _nicknameinputInfo = new RepoItemInfo(this, "NicknameInput", ".//container[@accessibilitylabel='Nickname']/container[2]/container[1]/text", "", 30000, null, "6707a9b2-d556-45e3-9d88-a6b0d71e59c0");
+                _addresscontinueInfo = new RepoItemInfo(this, "AddressContinue", ".//container[@caption='']//container[@accessibilitylabel~'^Please']/container[@accessibilitylabel='CONTINUE']/container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", "", 30000, null, "4fd1ade9-3909-429a-b779-36154d94d0e5");
+                _nicknamesaveInfo = new RepoItemInfo(this, "NicknameSave", "?/?/?//?/?/container[@accessibilitylabel='SAVE']", "", 30000, null, "685ee44f-20f8-4db5-9f3e-7779e213245d");
+                _installationcompletecontinueInfo = new RepoItemInfo(this, "InstallationCompleteContinue", ".//container[@accessibilityid='shadowButton']/container[@accessibilitylabel='CONTINUE']", "", 30000, null, "5cd27f50-eed2-4a9e-98c5-8620aa443184");
+                _screenshotInfo = new RepoItemInfo(this, "ScreenShot", "", "", 30000, null, "792081cf-928d-47f8-bc6a-dfc286be7470");
             }
 
             /// <summary>
@@ -3192,6 +3284,30 @@ namespace SSPC_iOS
             }
 
             /// <summary>
+            /// The ChangeWiFiContinue item.
+            /// </summary>
+            [RepositoryItem("8d1fd6b0-cca3-4ae7-8044-2a2f8db51f94")]
+            public virtual Ranorex.Container ChangeWiFiContinue
+            {
+                get
+                {
+                    return _changewificontinueInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The ChangeWiFiContinue item info.
+            /// </summary>
+            [RepositoryItemInfo("8d1fd6b0-cca3-4ae7-8044-2a2f8db51f94")]
+            public virtual RepoItemInfo ChangeWiFiContinueInfo
+            {
+                get
+                {
+                    return _changewificontinueInfo;
+                }
+            }
+
+            /// <summary>
             /// The NicknameInput item.
             /// </summary>
             [RepositoryItem("6707a9b2-d556-45e3-9d88-a6b0d71e59c0")]
@@ -3366,7 +3482,7 @@ namespace SSPC_iOS
             public HoursFolder(RepoGenBaseFolder parentFolder) :
                     base("Hours", ".//iospicker[@componentrowcounts='[12]']", parentFolder, 30000, null, false, "660f785d-ed74-4ce2-a7e6-b7c402a17395", "")
             {
-                _schdulehrsInfo = new RepoItemInfo(this, "SchduleHrs", ".//listitem[@text=$TimeHrs]", 30000, null, "9613783b-b93f-407c-80e4-97f09947b781");
+                _schdulehrsInfo = new RepoItemInfo(this, "SchduleHrs", ".//listitem[@text=$TimeHrs]", "", 30000, null, "9613783b-b93f-407c-80e4-97f09947b781");
             }
 
             /// <summary>
@@ -3432,7 +3548,7 @@ namespace SSPC_iOS
             public MinutesFolder(RepoGenBaseFolder parentFolder) :
                     base("Minutes", ".//iospicker[@componentrowcounts='[60]']", parentFolder, 30000, null, false, "1b317da3-894c-4377-ba91-2b2e63083c24", "")
             {
-                _scheduleminsInfo = new RepoItemInfo(this, "ScheduleMins", ".//listitem[@text=$TimeMins]", 30000, null, "3c6a2953-c2dd-47d5-aab6-c57516768607");
+                _scheduleminsInfo = new RepoItemInfo(this, "ScheduleMins", ".//listitem[@text=$TimeMins]", "", 30000, null, "3c6a2953-c2dd-47d5-aab6-c57516768607");
             }
 
             /// <summary>
@@ -3498,7 +3614,7 @@ namespace SSPC_iOS
             public AMPMFolder(RepoGenBaseFolder parentFolder) :
                     base("AMPM", ".//iospicker[@componentrowcounts='[2]']", parentFolder, 30000, null, false, "a0f67023-31a6-45c1-a5de-49f2a47fd025", "")
             {
-                _scheduleampmInfo = new RepoItemInfo(this, "ScheduleAMPM", ".///list[@accessibilitylabel='Component 0']/listitem[@text=$TimeAmPm]", 30000, null, "97d2b7de-d180-409a-8d86-c611b6936497");
+                _scheduleampmInfo = new RepoItemInfo(this, "ScheduleAMPM", ".///list[@accessibilitylabel='Component 0']/listitem[@text=$TimeAmPm]", "", 30000, null, "97d2b7de-d180-409a-8d86-c611b6936497");
             }
 
             /// <summary>
@@ -3564,7 +3680,7 @@ namespace SSPC_iOS
             public TimeMinutesFolder(RepoGenBaseFolder parentFolder) :
                     base("TimeMinutes", ".//iospicker[@componentrowcounts='[60]']", parentFolder, 30000, null, false, "e87b84af-407e-41b6-80fa-df5f0efeeec2", "")
             {
-                _timerminsInfo = new RepoItemInfo(this, "TimerMins", ".//listitem[@text=$TimerMins]", 30000, null, "796ec2d7-c73b-4512-8250-353a4388231f");
+                _timerminsInfo = new RepoItemInfo(this, "TimerMins", ".//listitem[@text=$TimerMins]", "", 30000, null, "796ec2d7-c73b-4512-8250-353a4388231f");
             }
 
             /// <summary>
@@ -3630,7 +3746,7 @@ namespace SSPC_iOS
             public TimerHoursFolder(RepoGenBaseFolder parentFolder) :
                     base("TimerHours", ".//iospicker[@componentrowcounts='[12]']", parentFolder, 30000, null, false, "cef7e1c2-a5df-4d2c-ac74-38e12ca0faa9", "")
             {
-                _timerhrsInfo = new RepoItemInfo(this, "timerHrs", ".//listitem[@text=$TimerHrs]", 30000, null, "5d7ae532-70af-4cc9-9b6f-531961ff4f67");
+                _timerhrsInfo = new RepoItemInfo(this, "timerHrs", ".//listitem[@text=$TimerHrs]", "", 30000, null, "5d7ae532-70af-4cc9-9b6f-531961ff4f67");
             }
 
             /// <summary>
@@ -3698,9 +3814,9 @@ namespace SSPC_iOS
             public NodeREDDashboardAppFolder(RepoGenBaseFolder parentFolder) :
                     base("NodeREDDashboard", "/dom[@domain='3.127.177.145:8082']", parentFolder, 30000, null, false, "4b98e7c3-e30c-40ce-bec1-d116df6ef7bf", "")
             {
-                _ngmdiconInfo = new RepoItemInfo(this, "NgMdIcon", ".//div[#'nr-dashboard-toolbar']/?/?/tag[@tagname='ng-md-icon']", 30000, null, "acefd3cc-4d65-45ba-a10e-fdbbe5f8b589");
-                _mdbuttonmdinkripplemdnostylengsInfo = new RepoItemInfo(this, "MdButtonMdInkRippleMdNoStyleNgS", ".//tag[@tagname='md-list']/tag[6]/div/button", 30000, null, "849862bb-5959-43c3-bfbe-95d4e5805efc");
-                _textInfo = new RepoItemInfo(this, "Text", ".//input[@type='text']", 30000, null, "bb766a82-8c0c-4720-87a6-6a8eb03e4df3");
+                _ngmdiconInfo = new RepoItemInfo(this, "NgMdIcon", ".//div[#'nr-dashboard-toolbar']/?/?/tag[@tagname='ng-md-icon']", "", 30000, null, "acefd3cc-4d65-45ba-a10e-fdbbe5f8b589");
+                _mdbuttonmdinkripplemdnostylengsInfo = new RepoItemInfo(this, "MdButtonMdInkRippleMdNoStyleNgS", ".//tag[@tagname='md-list']/tag[6]/div/button", "", 30000, null, "849862bb-5959-43c3-bfbe-95d4e5805efc");
+                _textInfo = new RepoItemInfo(this, "Text", ".//input[@type='text']", "", 30000, null, "bb766a82-8c0c-4720-87a6-6a8eb03e4df3");
             }
 
             /// <summary>
@@ -3818,11 +3934,11 @@ namespace SSPC_iOS
             public GoogleAppFolder(RepoGenBaseFolder parentFolder) :
                     base("Google", "/dom[@domain='www.google.com']", parentFolder, 30000, null, false, "47b23a98-2f5e-40fa-9324-6a4fd4552a0c", "")
             {
-                _googleinputInfo = new RepoItemInfo(this, "GoogleInput", ".//form/div[2]/div[1]/div[1]/div/div[2]", 30000, null, "fccd9930-634b-45bd-9796-1a6b969c6d29");
-                _googlesearchbuttonInfo = new RepoItemInfo(this, "GoogleSearchButton", ".//input[@name='btnK']", 30000, null, "6bee8828-b0ec-47a0-bc79-9d7dd6faba79");
-                _timeInfo = new RepoItemInfo(this, "Time", ".//div[#'rso']//div[@innertext<'am' or @innertext<'pm']", 30000, null, "36c41d67-2c1b-4f1f-8727-5b7178245ac1");
-                _dateInfo = new RepoItemInfo(this, "Date", ".//div[#'rso']//span[@innertext~'^[0-9]{1,}\\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \\s]\\s*[0-9]{2,}$']", 30000, null, "d3d1f492-5f85-4715-8928-6045f4500675");
-                _dayInfo = new RepoItemInfo(this, "day", ".//div[#'rso']//div[@innertext=' Monday, ' or @innertext=' Tuesday, ' or @innertext=' Wednesday, ' or @innertext=' Thursday, ' or @innertext=' Friday, ' or @innertext=' Saturday, ' or @innertext=' Sunday, ']", 30000, null, "716eb87d-5ba0-4934-ab37-a41ee8c6076d");
+                _googleinputInfo = new RepoItemInfo(this, "GoogleInput", "body//input[@title='Search']", "", 30000, null, "fccd9930-634b-45bd-9796-1a6b969c6d29");
+                _googlesearchbuttonInfo = new RepoItemInfo(this, "GoogleSearchButton", ".//input[@name='btnK']", "", 30000, null, "6bee8828-b0ec-47a0-bc79-9d7dd6faba79");
+                _timeInfo = new RepoItemInfo(this, "Time", ".//div[#'rso']//div[@innertext<'am' or @innertext<'pm']", "", 30000, null, "36c41d67-2c1b-4f1f-8727-5b7178245ac1");
+                _dateInfo = new RepoItemInfo(this, "Date", ".//div[#'rso']//span[@innertext~'^[0-9]{1,}\\ (January|February|March|April|May|June|July|August|September|October|November|December)[ \\s]\\s*[0-9]{2,}$']", "", 30000, null, "d3d1f492-5f85-4715-8928-6045f4500675");
+                _dayInfo = new RepoItemInfo(this, "day", ".//div[#'rso']//div[@innertext=' Monday, ' or @innertext=' Tuesday, ' or @innertext=' Wednesday, ' or @innertext=' Thursday, ' or @innertext=' Friday, ' or @innertext=' Saturday, ' or @innertext=' Sunday, ']", "", 30000, null, "716eb87d-5ba0-4934-ab37-a41ee8c6076d");
             }
 
             /// <summary>
@@ -3853,11 +3969,11 @@ namespace SSPC_iOS
             /// The GoogleInput item.
             /// </summary>
             [RepositoryItem("fccd9930-634b-45bd-9796-1a6b969c6d29")]
-            public virtual Ranorex.DivTag GoogleInput
+            public virtual Ranorex.InputTag GoogleInput
             {
                 get
                 {
-                    return _googleinputInfo.CreateAdapter<Ranorex.DivTag>(true);
+                    return _googleinputInfo.CreateAdapter<Ranorex.InputTag>(true);
                 }
             }
 
