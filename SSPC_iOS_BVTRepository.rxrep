@@ -218,7 +218,7 @@ name="SSPC_iOS_BVTRepository">
 				refimgid="624999ac-7152-42ef-a017-b925284bb9a5"
 				robustPath=""
 				searchtimeout="30000ms">
-					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel=' Sump Controller ']/container[@accessibilitylabel=' Sump Controller ']
+					/mobileapp[@title='com.pentair.pentairhome']/form/container[@caption='']//container[@accessibilitylabel='Sump Controller']/container[@accessibilitylabel='Sump Controller']
 				</item>
 				<item
 				addcaps="container,ioselement,mobileuielement"

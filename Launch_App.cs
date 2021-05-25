@@ -100,15 +100,24 @@ namespace SSPC_iOS
             repo.ComPentairPentairhome.firstscreensipe.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Left (180°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".5"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.SecondScreenSipe'.", repo.ComPentairPentairhome.SecondScreenSipeInfo, new RecordItemIndex(2));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(2));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.SecondScreenSipe'.", repo.ComPentairPentairhome.SecondScreenSipeInfo, new RecordItemIndex(3));
             repo.ComPentairPentairhome.SecondScreenSipe.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Left (180°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".5"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ThirdScreenSwipe'.", repo.ComPentairPentairhome.ThirdScreenSwipeInfo, new RecordItemIndex(3));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(4));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch gestures", "Swipe gesture with direction 'Left (180°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComPentairPentairhome.ThirdScreenSwipe'.", repo.ComPentairPentairhome.ThirdScreenSwipeInfo, new RecordItemIndex(5));
             repo.ComPentairPentairhome.ThirdScreenSwipe.Swipe(Location.Center, ValueConverter.ArgumentFromString<Ranorex.Core.Recorder.Touch.GestureDirection>("SwipeDirection", "Left (180°)"), ValueConverter.ArgumentFromString<Ranorex.Core.Distance>("Distance", ".5"), ValueConverter.ArgumentFromString<Ranorex.Duration>("SwipeDuration", "500ms"), 0);
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.LastScreen_Next_button' at Center", repo.ComPentairPentairhome.LastScreen_Next_buttonInfo, new RecordItemIndex(4));
+            Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(6));
+            Delay.Duration(2000, false);
+            
+            Report.Log(ReportLevel.Info, "Touch", "Touch item 'ComPentairPentairhome.LastScreen_Next_button' at Center", repo.ComPentairPentairhome.LastScreen_Next_buttonInfo, new RecordItemIndex(7));
             repo.ComPentairPentairhome.LastScreen_Next_button.Touch();
             Delay.Milliseconds(300);
             

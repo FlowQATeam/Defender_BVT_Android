@@ -5,6 +5,8 @@
   <Array name="bookmarks" />
   <Array name="files">
     <Element value="SSPC_iOS_BVT.rxtst" />
+    <Element value="Provisioning.rxrec" />
+    <Element value="Launch_App.rxrec" />
   </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">

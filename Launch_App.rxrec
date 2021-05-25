@@ -68,6 +68,15 @@ mode="Global">
 				</robustPath>
 			</info>
 		</swiperecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<swiperecorditem
 		direction="180"
 		distance=".5"
@@ -94,6 +103,15 @@ mode="Global">
 				</robustPath>
 			</info>
 		</swiperecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<swiperecorditem
 		direction="180"
 		distance=".5"
@@ -120,6 +138,15 @@ mode="Global">
 				</robustPath>
 			</info>
 		</swiperecorditem>
+		<explicitdelayitem
+		duration="2000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
 		<touchrecorditem
 		duration="300ms"
 		elementlocation="Center"
